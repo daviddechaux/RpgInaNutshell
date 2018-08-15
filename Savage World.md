@@ -1,3 +1,5 @@
+![Savage World](https://www.black-book-editions.fr/contenu/image/Images_divers/JDR_Savage%20Worlds/SW_00_Savage%20Worlds_LOGO.jpg)
+
 > [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)
 
 # Vocabulaire à la con
