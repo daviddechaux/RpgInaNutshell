@@ -293,7 +293,37 @@ XP      | Range
   - Augmenter un attribut (1 fois par rang)
 
 # Règles
-**Modificateur** Facile : +2; Difficile: -2; Très difficile: -4  
-**Trait** Faire un jet de compétence / attribut  
-**Compétence par défaut** Si pas la comp alors 1d4 - 2  
+- **Trait** : Faire un jet de compétence / attribut  
+- **Modificateur** : Facile : +2; Difficile: -2; Très difficile: -4  
+- **As** : Obtenir le maximum sur un jé de dé  
+- **Relance** : Obtenir 4 de plus que la difficulté. 1 relance par tranche de 4. 11 = 1 relance, 12 = 2 relances  
+- **Compétence par défaut** : Si pas la comp alors 1d4 - 2  
 
+## Dé Joker
+**Echec Critique** : obtenir 1 sur son jet de Trait **et** son dé joker => C'est le MJ qui décide de ce qu'il se passe
+
+## Jetons
+On début la session avec 3 jetons  
+- Relancer un jet de Trait (on relance tous les dés), on garde toujours le meilleur résultat
+- Jet de dégâts **uniquement** si atout Sans Pitié
+- Encaisser une attaque
+
+## Combat
+### Initiative
+> VF p 109  
+> Deluxe VO p 65  
+
+- Chaque joker et chaque groupe de PNJ tir une carte
+- As, Roi, Dame, ..., Trois, Deux
+- Le Joker (la carte) permet d'agir au moment voulu. +2 jets de traits, +2 jets de dégâts
+- En Attente
+  - On peut retenir son action, on est **En Attente**, si aucune action n'est effectuée avant la fin du tour, le joueur perd son tour.
+  - Le status secoué fais perdre le status. Le joueur perd son tour
+  - On peut interrompre une action, jet opposé d'Agilité. Score le plus élevé débute, en cas d'égalité, les actions sont simultanées
+- Surprise
+  - Les victimes d'ambuscade test Perception. Ceux qui reussissent reçoivent 1 carte. Les autres ne jouent pas ce tour.
+
+### Mouvements
+- **Ramper** : 2 case par round, est considéré **A terre** lorssqu'on tire dessus
+- **Avancer accroupi** : Allure / 2. Course possible, Allure / 2, mais après le bonus de course. Tir -1 vs cibles accroupis
+- **A terre** : 
