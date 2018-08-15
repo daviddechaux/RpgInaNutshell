@@ -12,7 +12,8 @@
 
 # Création de personnage
 ## Race
-> Dans Beast & Barbarians on ne joue que des humains
+> Dans Beast & Barbarians on ne joue que des humains  
+
 Todo
 
 ## Traits
@@ -23,7 +24,7 @@ Todo
 - Intellect : Jet de sarcasme, intimidation, ...
 - Vigueur : Mieux résister aux coups  
 
-> 5 pt à répartir  
+> 5 pts à répartir  
 > Attribut de départ = 1d4  
 > Max d12  
 
@@ -33,7 +34,7 @@ Todo
 - 4 pts = 1d12
 
 ### Compétences
-> 15 pt à répartir  
+> 15 pts à répartir  
 > 0 pt = 1d4-2  
 
 - Agmentation = 1 pt si Compétence < Attribut 
@@ -94,13 +95,13 @@ Bizarrerie 		     | Mineur 	 | Le personnage a une obsession ou une autre bizarr
 Boiteux 		       | Majeur 	 | -2 Allure, et le dé de course est d4.
 Borgne 			       | Majeur 	 | -1 Charisme si non masqué, -2 pour jets qui nécessitent une perception de la profondeur.
 Chimères 		       | Min / Maj | Le personnage croit des choses non fondées.
-Code d’honneur 	   | Majeur 	 | Le personnage tient toujours sa parole et agit en gentleman.
+Code d’Honneur 	   | Majeur 	 | Le personnage tient toujours sa parole et agit en gentleman.
 Couard 			       | Majeur 	 | -2 aux jets d’Âme pour résister à la peur.
-Cul-de-jatte 	     | Majeur 	 | -2 Allure, dé de course est d4. Sans une jambe de bois, Allure = 2, et -2 aux Compétences nécessitant une mobilité.
+Cul-de-Jatte 	     | Majeur 	 | -2 Allure, dé de course est d4. Sans une jambe de bois, Allure = 2, et -2 aux Compétences nécessitant une mobilité.
 Cupide 			       | Min / Maj | Le personnage est obsédé par la richesse.
 Curieux 		       | Majeur 	 | Le personnage veut tout savoir.
-Deux mains gauches | Mineur 	 | -2 en Réparation, un jet de Compétence de 1 sur l’utilisation d’un objet technologique provoque une défaillance.
-Dur d’oreille 	   | Min / Maj | -2 en Perception si Mineur. Sourd si Majeur 
+Deux Mains Gauches | Mineur 	 | -2 en Réparation, un jet de Compétence de 1 sur l’utilisation d’un objet technologique provoque une défaillance.
+Dur d’Oreille 	   | Min / Maj | -2 en Perception si Mineur. Sourd si Majeur 
 Ennemi			       | Min / Maj | Le personnage a un ou plusieurs ennemis connus.
 Étranger 		       | Mineur 	 | -2 en Charisme. Mal vu dans la société de référence.
 Frêle 			       | Majeur 	 | -1 en Résistance.
@@ -111,7 +112,7 @@ Illettré 		       | Mineur 	 | Le personnage ne sait ni lire ni écrire.
 Loyal 			       | Mineur 	 | Le héros ne trahira jamais ses amis.
 Malchanceux 	     | Majeur 	 | Un Jeton de moins par session.
 Manchot 		       | Majeur 	 | Le personnage n’a qu’un bras valide. -4 aux actions qui nécessitent deux bras (Escalade).
-Mauvaise habitude  | Min / Maj | Le personnage a une habitude énervante ou une addiction.
+Mauvaise Habitude  | Min / Maj | Le personnage a une habitude énervante ou une addiction.
 Moche 			       | Mineur 	 | -2 en Charisme à cause de son apparence hideuse.
 Myope 			       | Min / Maj | -2 en Combat ou Perception à plus de 5.
 Obèse 			       | Mineur 	 | +1 en Résistance, -1 en Allure, et le dé de course est d4.
@@ -122,7 +123,7 @@ Présomptueux 	     | Majeur 	 | Le héros pense qu’il peut arriver à tout.
 Prudent 		       | Mineur 	 | Le personnage est excessivement prudent.
 Rancunier 		     | Min / Maj | Revanchard, allant jusqu’à tuer pour se venger si le handicap est Majeur.
 Recherché 		     | Min / Maj | Les autorités recherchent le personnage pour une ou plusieurs infractions à la loi.
-Rien à perdre 	   | Mineur    | Le héros souhaite mourir une fois une certaine tache accomplie.
+Rien à Perdre 	   | Mineur    | Le héros souhaite mourir une fois une certaine tache accomplie.
 Sale Caractère 	   | Mineur    | -2 en Charisme à cause de sa mauvaise humeur perpétuelle.
 Sanguinaire 	     | Majeur    | Ne fait jamais de prisonniers. -4 en Charisme si cela se sait.
 Sceptique 		     | Mineur    | Le personnage ne croit pas au surnaturel.
@@ -133,6 +134,7 @@ Unijambiste 	     | Majeur 	 | Allure –2, d4 en dé de Course, –2 pour tout 
 ### Résumé des Atouts
 > p 54  
 
+> **en gras** Atout requis
 > N : Novice  
 > A : Aguerri  
 > V : Vétéran  
@@ -262,7 +264,7 @@ Volonté de Fer              | N, Intimidation d6, Sarcasmes d6                 
 **Parade +X** Ajoute X à la parade  
 **Portée** Courte pas de malus, Moyenne -2 au Tir, Longue -4 au Tir  
 **Rechargement** Nombre action nécessaire pour recharger  
-**Tir en Rafale** Tir 3 balles en 1 action +2 jet de TIr +2 Dégâts ( =/= **CdT**)
+**Tir en Rafale** Tir 3 balles en 1 action +2 jet de TIr +2 Dégâts ( =/= **CdT**)  
 **Tir Statique** -2 au Tir si déplacement
 
 ## Encombrement
@@ -280,7 +282,8 @@ XP      | Range
 60 - 79 | Héroïque
 80+     | Légendaire
 
-- 5 xp : Progression 
+- 5 xp = Progression 
+- Progression :
   - Nouvel Atout
   - 1 Compétence dont la valeur est supèrieur ou égale au trait
   - 2 Compétences dont la valeur est infénieur au trait
