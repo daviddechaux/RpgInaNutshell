@@ -139,7 +139,7 @@ Unijambiste 	     | Majeur 	 | Allure –2, d4 en dé de Course, –2 pour tout 
 ### Résumé des Atouts
 > p 54  
 
-> **en gras** Atout requis
+> **Atout requis**   
 > N : Novice  
 > A : Aguerri  
 > V : Vétéran  
