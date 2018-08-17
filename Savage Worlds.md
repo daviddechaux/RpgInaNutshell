@@ -6,7 +6,7 @@
 **Relance** Obtenir 4 de plus que la difficulté. 1 relance par tranche de 4. 11 = 1 relance, 12 = 2 relances.  
 **As** Obtenir le maximum sur un jé de dé, dans ce cas on a le droit de relancer le dé jusqu'à ne plus obtenir d'As.  
 **As (Atout)** +2 en Conduite, Navigation et Pilotage. Peut faire un jet de Résistance pour un véhicule en réussissant un jet à -2.  
-**Joker** Personnage important, genre les joueurs, les méchants, ...    
+**Joker** Personnage important, genre les joueurs, les méchants nommés, ...    
 **Dé Joker** Dé 6 lancer lors d'un jet de trait  
 **Carte Joker** Carte d'initiative, +2 aux jets de combats et dégâts. On agit quand on veut.  
 
