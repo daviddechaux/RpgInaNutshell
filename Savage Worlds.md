@@ -148,46 +148,34 @@ Unijambiste 	     | Majeur 	 | Allure –2, d4 en dé de Course, –2 pour tout 
 
 Atout                       | Prérequis                 					                 | Effets
 ----------------------------|------------------------------------------------------|--------------------------------------------
-Acolyte                     | L, Joker 									                           | Un Joker Novice se met au service du personnage.
-Acrobate 			              | N, Agi d8, For d6 							                     | +2 aux jets d’Agilité liés à la souplesse, +1 en Parade si non-encombré.
-Afflux de Pouvoir           | Joker, A, Comp. 							                       | +2d6 PP en cas de Joker lors de d’Arcane d10 l’Initiative.
-Ambidextre 			            | N, Agi d8 									                         | Ignore le malus de -2 pour la main non directrice.
-Arcanes 			              | N, Spécial 									                         | Permet de disposer de pouvoirs surnaturels.
-Adepte 				              | N, **Arcanes** (Miracles), Foi d8, Combat d8         | For+d4 pour les attaques à mains nues ; toujours considéré armé ; peut lancer certains pouvoirs en tant qu’actions libres (voir texte)
-Arme Fétiche 		            | N, Combat ou Tir d10 						                     | +1 en Combat ou en Tir avec une arme précise.
-Arme Fétiche Adorée         | V, **Arme fétiche**   				                       | +2 en Combat ou en Tir avec une arme précise.
-Arts Martiaux 		          | N, Combat d6 								                         | For+d4 pour les attaques à mains nues ; toujours considéré armé
-Maîtrise des Arts Martiaux  | V, **Art Martiaux**, Combat d10                      | For+d6 pour les attaques à mains nues
-Grand maitre en Arts M      | L, **Maîtrise des arts martiaux**, Combat d12+       | +2 aux dégâts pour les attaques à mains nues
+Acolyte                     | L, Joker                                             | Un Joker Novice se met au service du personnage.
+Acrobate                    | N, Agi d8, For d6                                    | +2 aux jets d’Agilité liés à la souplesse, +1 en Parade si non-encombré.
+Afflux de Pouvoir           | Joker, A, Comp.                                      | +2d6 PP en cas de Joker lors de d’Arcane d10 l’Initiative.
+Ambidextre                  | N, Agi d8                                            | Ignore le malus de -2 pour la main non directrice.
+Arcanes                     | N, Spécial                                           | Permet de disposer de pouvoirs surnaturels.
+Adepte                      | N, **Arcanes** (Miracles), Foi d8, Combat d8         | For+d4 pour les attaques à mains nues; toujours considéré armé ; peut lancer certains pouvoirs en tant qu’actions libres (voir texte)
+Arme Fétiche                | N, Combat ou Tir d10                                 | +1 en Combat ou en Tir avec une arme précise.
+Arme Fétiche Adorée         | V, **Arme fétiche**                                  | +2 en Combat ou en Tir avec une arme précise.
+Arts Martiaux               | N, Combat d6                                         | For+d4 pour les attaques à mains nues; toujours considéré armé
 As                          | N, Agi d8                                            | +2 en Conduite, Navigation et Pilotage. Peut faire un jet de Résistance pour un véhicule en réussissant un jet à -2.
 Assassin                    | N, Agi d8, Combat d6, Discrétion d8, Escalade d6     | +2 aux dégâts contre une cible surprise 
+Bagarreur                   | N, For d8                                            | +2 aux dégâts à mains nues.
 Balayage                    | N, For d8, Combat d8                                 | Attaque tous les adversaires adjacents à -2.
-Grand Balayage              | V, **Balayage**                                      | Attaque tous les adversaires adjacents.
-Bagarreur                   | N, For d8                                            | +2 aux dégâts à mains nues
-Cogneur                     | A, **Bagarreur**                                     | Le dé de bonus de dégâts à mains nues passe à d8 
 Bidouilleur                 | N, voir texte                                        | +2 aux jets de Réparation, temps de réparation réduit de moitié avec un Relance.
-Blocage                     | A, Combat d8                                         | +1 Parade
-Grand Blocage               | V, **Blocage**                                       | +2 Parade
-Brave                       | N, Âme d6 +2                                         | +2 aux jets de Terreur
+Blocage                     | A, Combat d8                                         | +1 Parade.
+Brave                       | N, Âme d6 +2                                         | +2 aux jets de Terreur.
 Bricoleur de Génie          | N, voir texte                                        | Peut bidouiller un engin une fois par session de jeu.
 Champion                    | N, voir texte                                        | +2 au dégâts et en Résistance contre le mal d’origine surnaturelle.
 Chanceux                    | N                                                    | +1 Jeton par session.
-Très Chanceux               | N, **Chanceux**                                      | +2 Jetons par session.
-Recycleur                   | N, **Chanceux**                                      | Possibilité de trouver un équipement utile une fois par session
-Charismatique               | N, Âme d8                                            | +2 Charisme
-Combat à Deux Armes         | N, Agi d8                                            | Peut attaquer avec une arme dans chaque main sans subir le malus d’Actions multiples
+Charismatique               | N, Âme d8                                            | +2 Charisme.
+Cogneur                     | A, **Bagarreur**                                     | Le dé de bonus de dégâts à mains nues passe à d8. 
+Combat à Deux Armes         | N, Agi d8                                            | Peut attaquer avec une arme dans chaque main sans subir le malus d’Actions multiples.
 Combatif                    | A                                                    | +2 pour récupérer d’un état Secoué.
 Commandement                | N, Int d6                                            | Les troupes ont un bonus de +1 pour récupérer d’un état Secoué.
-Grande Aura de Commandement | N, **Commandement**                                  | L’aura de commandement a un rayon de 10 cases.
-Ferveur                     | V, Âme d8, **Commandement**                          | Les troupes ont un bonus de +1 aux dégâts.
-Inspiration                 | A, **Commandement**                                  | Les troupes ont un bonus de +1 à leurs jets d’Âme.
-Leader Naturel              | N, Âme d8, **Commandement**                          | Le leader peut donner des Jetons à ses troupes.
-Meneur d’Hommes             | V, **Commandement**                                  | Dé Joker à d10 pour les jets de groupe des alliés
-Serrez les Rang !           | A, Int d8, **Commandement**                          | Les troupes ont un bonus de +1 à la Résistance.
 Contacts                    | N                                                    | Peut demander de l’aide à des amis bien placés.
 Contre-Attaque              | A, Combat d8                                         | Attaque gratuite par Round à -2 contre un adversaire ayant raté son attaque.
-Grande Contre-Attaque       | V, **Contre-attaque**                                | Comme ci-dessus, sans le malus de -2.
-Costaud                     | N, For d6, Vig d6                                    | +1 Résistance, limite de poids à 4 × For
+Coriace                     | L, **Endurci**                                       | +2 Résistance.
+Costaud                     | N, For d6, Vig d6                                    | +1 Résistance, limite de poids à 4 × For.
 Coup Puissant               | Joker, A, Combat d10                                 | Double les dégâts en mêlée en cas de Joker lors de l’Initiative.
 Courage Liquide             | N, Vig d6                                            | Gagne un dé de Vigueur en buvant 25 cl d’alcool fort.
 Dans le Mille !             | Joker, A, Tir/Lancer d10                             | Double les dégâts à distance en cas de Joker lors de l’Initiative.
@@ -196,13 +184,12 @@ Dégaine Comme l’éclair      | N, Agi d8                                     
 Don des Mangues             | N, Int d6                                            | Commence le jeu en maîtrisant un nombre de langues égal à son dé d’Intellect ; possibilité de se faire comprendre par n’importe qui avec un jet d’Intellect à -2 après une semaine d’immersion.
 Drain de l’Âme              | A, voir texte                                        | Spécial. 
 Endurci                     | L                                                    | +1 Résistance (prendre plutôt **Costaud**)
-Coriace                     | L, **Endurci**                                       | +2 Résistance
 Enragé                      | N                                                    | Voir texte.
 Érudit                      | N, d8 dans les Compétences concernées                | +2 dans deux Connaissances.
 Esquive                     | A, Agi d8                                            | -1 aux attaques à distance contre le personnage.
-Grande Esquive              | V, Esquive                                           | -2 aux attaques à distance contre le personnage.
 Extraction                  | N, Agi d8                                            | Empêche une attaque ennemie sur une retraite avec un jet d’Agilité.
-Grande Extraction           | N, **Extraction**                                    | Comme ci-dessus. Avec une Relance, empêche toutes les attaques.
+Expert                      | L, **Professionnel** dans le Trait                   | Le Trait passe à d12+2 
+Ferveur                     | V, Âme d8, **Commandement**                          | Les troupes ont un bonus de +1 aux dégâts.
 Florentine                  | N, Agi d8, Combat d8                                 | +1 en Combat contre les cibles n’ayant qu’une arme et sans bouclier. Ignore 1 point de bonus pour des attaquants multiples.
 Forestier                   | N, Âme d6, Survie d8, Pistage d8                     | +2 en Survie, Pistage et Discrétion.
 Frappe éclair               | N, Agi d8                                            | Peut attaquer un adversaire se portant au contact.
@@ -212,16 +199,29 @@ Frénésie Suprême            | V, **Frénésie**                              
 Guérison Rapide             | N, Vigueur d8                                        | +2 aux jets de guérison naturelle.
 Guérisseur                  | N, Âme d8                                            | +2 aux jets de Soins.
 Guerrier Saint / Impie      | N, voir texte                                        | Voir texte
+Grand Balayage              | V, **Balayage**                                      | Attaque tous les adversaires adjacents.
+Grand maitre en Arts M      | L, **Maîtrise des arts martiaux**, Combat d12+       | +2 aux dégâts pour les attaques à mains nues
+Grand Blocage               | V, **Blocage**                                       | +2 Parade
+Grande Aura de Commandement | N, **Commandement**                                  | L’aura de commandement a un rayon de 10 cases.
+Grande Contre-Attaque       | V, **Contre-attaque**                                | Comme ci-dessus, sans le malus de -2.
+Grande Esquive              | V, Esquive                                           | -2 aux attaques à distance contre le personnage.
+Grande Extraction           | N, **Extraction**                                    | Comme ci-dessus. Avec une Relance, empêche toutes les attaques.
+Grande Résistance           | N, **Résistance aux arcanes**                        | Armure +4 contre la magie, +4 pour aux arcanes résister aux pouvoirs.
+Grande Source de Pouvoir    | V, **Source de pouvoir**                             | Regagne 1 PP toutes les 15 minutes.
+Inspiration                 | A, **Commandement**                                  | Les troupes ont un bonus de +1 à leurs jets d’Âme.
 Increvable                  | N, Joker, Âme d8                                     | Ignore le malus de Blessures sur les jets lorsqu’il passe dans un État critique.
-Trompe-la-Mort              | V, **Increvable**                                    | 50 % de chance de survivre à une « mort ».
 Instinct de Tueur           | H                                                    | Remporte les oppositions en cas d’égalité. Possibilité de relancer un 1 sur un jet Opposé.
-Investigateur               | N, Int d8, Investigation d8, Réseaux d8              | +2 en Investigation et Réseaux .
+Investigateur               | N, Int d8, Investigation d8, Réseaux d8              | +2 en Investigation et Réseaux.
+Leader Naturel              | N, Âme d8, **Commandement**                          | Le leader peut donner des Jetons à ses troupes.
 Lien Animal                 | N                                                    | Le personnage peut donner des Jetons à ses animaux.
 Lien Mutuel                 | N, Joker, Âme d8                                     | Le personnage peut donner des Jetons à ses compagnons.
 Mage                        | N, voir texte                                        | Chaque Relance sur le jet d’Arcane réduit le coût en pouvoir du sort de 1.
+Maître                      | L, Joker, **Expert** dans le Trait                   | Le dé Joker passe à d10 pour ce dans le Trait.
 Maître d’Armes              | L, Combat d12                                        | +1 Parade (Prendre plutôt **Blocage**)
 Maître d’Armes Légendaire   | L, **Maître d’armes**                                | +2 Parade
 Maître des Bêtes            | N, Âme d8                                            | Vous obtenez un compagnon animal.
+Maîtrise des Arts Martiaux  | V, **Art Martiaux**, Combat d10                      | For+d6 pour les attaques à mains nues
+Meneur d’Hommes             | V, **Commandement**                                  | Dé Joker à d10 pour les jets de groupe des alliés
 Mentaliste                  | N, Int d8, Psioniques d6, **Arcanes** (Psioniques)   | +2 pour tout jet de Psioniques Opposé.
 Nerfs d’Acier               | N, Joker, Vigueur d8                                 | Ignore 1 point de malus lié aux Blessures.
 Nerfs d’Acier Trempé        | N, **Nerfs d’acier**                                 | Ignore 2 points de malus liés aux Blessures.
@@ -231,26 +231,26 @@ Panache                     | N, Âme d8                                        
 Poigne Ferme                | N, Agi d8                                            | Ignore la pénalité lié à une Plateforme instable.
 Points de Pouvoir           | N, **Arcanes**                                       | +5 PP, une fois par Rang.
 Professionnel               | L, d12 dans le Trait                                 | Le Trait passe à d12+1
-Expert                      | L, **Professionnel** dans le Trait                   | Le Trait passe à d12+2 
-Maître                      | L, Joker, **Expert** dans le Trait                   | Le dé Joker passe à d10 pour ce dans le Trait.
+Recycleur                   | N, **Chanceux**                                      | Possibilité de trouver un équipement utile une fois par session
 Résistance aux Arcanes      | N, Âme d8                                            | Armure +2 contre la magie, +2 pour résister aux pouvoirs.
-Grande résistance           | N, **Résistance aux arcanes**                        | Armure +4 contre la magie, +4 pour aux arcanes résister aux pouvoirs.
 Riche                       | N                                                    | 3 fois les fonds de départ, 75 000 $ de salaire annuel.
-Très Riche                  | N, **Riche**                                         | 5 fois les fonds de départ, 250 000 $ de salaire annuel.
 Rock n’ Roll !              | A, Tir d8                                            | Le tireur ignore le malus de Tir automatique s’il ne se déplace pas.
 Sans Pitié                  | A                                                    | Peut utiliser des Jetons sur les jets de dégâts.
 Séduisant                   | N, Vig d6                                            | +2 Charisme
-Très Séduisant              | N, **Séduisant**                                     | +4 Charisme
-Sixième Sens                | N                                                    | Jet de Perception à -2 pour anticiper pièges et embuscades.
-Source de Pouvoir           | A, Âme d6, Arcanes                                   | Regagne 1 PP toutes les 30 minutes.
-Grande Source de Pouvoir    | V, **Source de pouvoir**                             | Regagne 1 PP toutes les 15 minutes.
-Suivants                    | L, Joker                                             | Attire 5 suivants.
 Tacticien                   | A, Joker, Int d8, Conn.                              | Le joueur fait un jet de Connaissance (Bataille) d6 (Bataille) et gagne une carte d’action par Succès et Relance. Il peut par la  suite remplacer la carte d’un allié parune de celles-ci durant le combat.
 Tête Froide                 | A, Int d8                                            | Agit sur la meilleure de deux cartes en combat.
-Sang-Froid                  | A, **Tête Froide**                                   | Agit sur la meilleure de trois cartes en combat.
 Tireur d’élite              | A                                                    | La manoeuvre Visée (+2 en Tir) est automatique si le personnage ne se déplace pas.
 Touche-à-Tout               | N, Int d10                                           | Pas de malus de -2 sur les jets de Connaissance non maitrisées.
+Très Chanceux               | N, **Chanceux**                                      | +2 Jetons par session.
+Très Riche                  | N, **Riche**                                         | 5 fois les fonds de départ, 250 000 $ de salaire annuel.
+Très Séduisant              | N, **Séduisant**                                     | +4 Charisme
+Trompe-la-Mort              | V, **Increvable**                                    | 50 % de chance de survivre à une « mort ».
 Tueur de Géant              | V                                                    | +1d6 aux dégâts contre les grandes créatures.
+Sixième Sens                | N                                                    | Jet de Perception à -2 pour anticiper pièges et embuscades.
+Source de Pouvoir           | A, Âme d6, Arcanes                                   | Regagne 1 PP toutes les 30 minutes.
+Serrez les Rang !           | A, Int d8, **Commandement**                          | Les troupes ont un bonus de +1 à la Résistance.
+Suivants                    | L, Joker                                             | Attire 5 suivants.
+Sang-Froid                  | A, **Tête Froide**                                   | Agit sur la meilleure de trois cartes en combat.
 Véloce                      | N, Agi d6                                            | +2 Allure, le dé de Course passe à d10.
 Vif                         | N                                                    | Défausse les cartes de 5 ou moins lors de l’Initiative.
 Vigilant                    | N                                                    | +2 en Perception
