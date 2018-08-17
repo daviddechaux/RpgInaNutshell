@@ -39,8 +39,9 @@ Todo
 > 15 pts à répartir  
 > 0 pt = 1d4-2  
 
-- Agmentation = 1 pt si Compétence < Attribut 
-- Agmentation = 2 pts si Compétence >= Attribut 
+- Agmentation
+  - 1 pt si Compétence < Attribut 
+  - 2 pts si Compétence >= Attribut 
 
 | Nom                      | Trait     |
 |--------------------------|-----------|
@@ -68,12 +69,14 @@ Todo
 | Tir                      | Agilité   |
 
 ### Caravctérisitques dérivées
-- Allure : Vitesse, 6 cases
+- Allure (Vitesse) : 6 cases
 - Charisme : +0
 - Parade : 2 + 1/2 Compétence Combat (0 si rien) + Bouclier + Arme
 - Résistance : 2 + 1/2 Vigueur + Armure
 
-## Atout
+> ex : Vigueur = d6, 1/2 Vigueur = 3
+
+## Atout & Handicaps
 > Max 1 Handicap Maj et 2 Min  
 > 2 pt / Handicap Maj et 1 pt / Handicap min  
 - 2 pts :
@@ -273,12 +276,11 @@ Volonté de Fer              | N, Intimidation d6, Sarcasmes d6                 
 - 2.5 * dé de Force sans pénalité  
 - Au délà, -1 aux jets d'Agilité, de Force et Compétences liées par tranche de 2.5 fois dé de Force
 
-
 # Progression
 ## Rang
 XP      | Range
---------|---------
-0 - 19  | Novice
+--------|-----------
+0  - 19 | Novice
 20 - 39 | Aguerri
 40 - 59 | Vétéran
 60 - 79 | Héroïque
@@ -287,8 +289,8 @@ XP      | Range
 - 5 xp = Progression 
 - Progression :
   - Nouvel Atout
-  - 1 Compétence dont la valeur est supèrieur ou égale au trait
-  - 2 Compétences dont la valeur est infénieur au trait
+  - 1 Compétence dont la valeur est supérieur ou égale au trait
+  - 2 Compétences dont la valeur est inférieur au trait
   - Prendre une nouvelle compétence à d4
   - Augmenter un attribut (1 fois par rang)
 
