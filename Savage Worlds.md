@@ -93,8 +93,8 @@ __Todo__
   - Pt de compétence
   - Doubler thune de départ
 
-> Les Atouts & Handicaps noté pour _Savage World_ ne peuvent pas être utilisés pour _Beast & Barbarians_.
-> Les Atouts & Handicaps noté pour _Beast & Barbarians_ ne peuvent pas être utilisés pour _Savage World_.
+> Les Atouts & Handicaps noté pour _Savage World_ ne peuvent pas être utilisés pour _Beast & Barbarians_.  
+> Les Atouts & Handicaps noté pour _Beast & Barbarians_ ne peuvent pas être utilisés pour _Savage World_.  
 
 ### Résumé des Handicaps
 > p 47  
@@ -154,12 +154,14 @@ Unijambiste 	             | Majeur 	 | `Allure` –2, d4 en dé de course, –2 
 ### Résumé des Atouts
 > p 54  
 
-> **Atout requis**   
-> N : Novice  
-> A : Aguerri  
-> V : Vétéran  
-> H : Héroïque  
-> L : Légendaire  
+- **Atout requis**   
+- `Àttribut`
+- __Compétence__
+- N : Novice  
+- A : Aguerri  
+- V : Vétéran  
+- H : Héroïque  
+- L : Légendaire  
 
 Atout                        | Prérequis                 					                                    | Effets
 ---------------------------  |------------------------------------------------------------------------|------------------------------------------------------------------------
@@ -317,9 +319,14 @@ Voleur                       | N, `Agilité` __Discrétion__ d8, __Escalade__ __
 Volonté de Fer               | N, __Intimidation__ __Sarcasmes__ d6                                   | +2 __Intimidation__ et __Sarcasme__, +2 pour y résister.
 
 ## Equipement
-- Débute avec 500 $ (peut varier en fonction des jeux)
+- Monaie :
+  - _SW_ $
+  - _B&B_ Lune
 
-> p 82  
+- B&B_ Débute avec 500 Lunes + 100 / rang au dessus de Novice
+
+> _SW_ p 82  
+> _B&B_ p 93  
 
 **Allonge X** Attaque à X case  
 **Cadence de Tir (CdT)** Nombre de tir qu'on **peut** efectuer un 1 Action (On a toujours le malus de -2 à partir du second tir)  
@@ -387,4 +394,5 @@ On début la session avec 3 jetons
 ### Mouvements
 - **Ramper** : 2 case par round, est considéré **A terre** lorssqu'on tire dessus
 - **Avancer accroupi** : `Allure` / 2. Course possible, `Allure` / 2, mais après le bonus de course. Tir -1 vs cibles accroupis
-- **A terre** : 
+- **A terre** : peut se jeter à terre lors de son action, couverture moyenne, se relever = 2 cases de mvt
+- **Sauter** : 1 case sans élan, 2 avec élan
