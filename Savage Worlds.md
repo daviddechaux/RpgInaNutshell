@@ -14,9 +14,9 @@
 
 # Chartre
 `Attribut`  
-__Compétence__
-_SW_ : _Savage Worlds_
-_B&B_ : _Beast & Barbarians_
+__Compétence__  
+_SW_ : _Savage Worlds_  
+_B&B_ : _Beast & Barbarians_  
 
 # Création de personnage
 ## Race
