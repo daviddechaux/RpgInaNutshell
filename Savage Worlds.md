@@ -1,6 +1,12 @@
+> [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)
+
 ![Savage World](https://www.black-book-editions.fr/contenu/image/Images_divers/JDR_Savage%20Worlds/SW_00_Savage%20Worlds_LOGO.jpg)
 
-> [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)
+Cette page présente un résumé des règles pour _Savage Worlds_.
+
+![Beast and Barbarians](http://www.legrog.org/visuels/couvertures/14797.jpg)
+
+Les règles additionnels pour _Beast and Barbarians_ sont également incluses  
 
 # Vocabulaire à la con
 `Relance` Obtenir 4 de plus que la difficulté. 1 relance par tranche de 4. 11 = 1 `relance`, 12 = 2 `relances` _(Réussite, succès ?)_.  
