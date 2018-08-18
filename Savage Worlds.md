@@ -155,8 +155,6 @@ Unijambiste 	             | Majeur 	 | `Allure` –2, d4 en dé de course, –2 
 > p 54  
 
 - **Atout requis**   
-- `Àttribut`
-- __Compétence__
 - N : Novice  
 - A : Aguerri  
 - V : Vétéran  
@@ -319,9 +317,9 @@ Voleur                       | N, `Agilité` __Discrétion__ d8, __Escalade__ __
 Volonté de Fer               | N, __Intimidation__ __Sarcasmes__ d6                                   | +2 __Intimidation__ et __Sarcasme__, +2 pour y résister.
 
 ## Equipement
-- Monaie :
-  - _SW_ $
-  - _B&B_ Lune
+- Monnaie :
+  - _SW_ : Dollar
+  - _B&B_ : Lune Syranthienne
 
 - B&B_ Débute avec 500 Lunes + 100 / rang au dessus de Novice
 
