@@ -1,12 +1,9 @@
-> [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)
-
 ![Savage World](https://www.black-book-editions.fr/contenu/image/Images_divers/JDR_Savage%20Worlds/SW_00_Savage%20Worlds_LOGO.jpg)
 
-Cette page présente un résumé des règles pour _Savage Worlds_.
+Cette page présente un résumé des règles pour _Savage Worlds_.  
+Les règles additionnels pour _Beast and Barbarians_ sont également incluses  
 
 ![Beast and Barbarians](http://www.legrog.org/visuels/couvertures/14797.jpg)
-
-Les règles additionnels pour _Beast and Barbarians_ sont également incluses  
 
 # Vocabulaire à la con
 `Relance` Obtenir 4 de plus que la difficulté. 1 relance par tranche de 4. 11 = 1 `relance`, 12 = 2 `relances` _(Réussite, succès ?)_.  
@@ -18,11 +15,13 @@ Les règles additionnels pour _Beast and Barbarians_ sont également incluses
 
 ![Genius](https://vignette.wikia.nocookie.net/warframe/images/6/64/Genius_10108899_orig_.png/revision/latest?cb=20160130130813&path-prefix=ru)
 
-# Chartre
-`Attribut`  
-__Compétence__  
-_SW_ : _Savage Worlds_  
-_B&B_ : _Beast & Barbarians_  
+#### Notes :
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)
+
+> `Attribut`  
+> __Compétence__  
+> _SW_ : _Savage Worlds_  
+> _B&B_ : _Beast & Barbarians_  
 
 # Création de personnage
 ## Race
@@ -57,7 +56,7 @@ __Todo__
 
 | Nom                       | Trait       |
 |---------------------------|-------------|
-| __Combat__                    | `Agilité`   |	
+| Combat                    | `Agilité`   |	
 | Conduite                  | `Agilité`   |
 | Connaissance              | `Intellect` |
 | Crochetage 			          | `Agilité`   |
@@ -327,16 +326,16 @@ Volonté de Fer               | N, __Intimidation__ __Sarcasmes__ d6            
   - _SW_ : Dollar
   - _B&B_ : Lune Syranthienne
 
-- B&B_ Débute avec 500 Lunes + 100 / rang au dessus de Novice
+- _B&B_ Débute avec 500 Lunes + 100 / rang au dessus de Novice
 
 > _SW_ p 82  
 > _B&B_ p 93  
 
 **Allonge X** Attaque à X case  
 **Cadence de Tir (CdT)** Nombre de tir qu'on **peut** efectuer un 1 Action (On a toujours le malus de -2 à partir du second tir)  
-**`Force`** `Force` minimale requise pour utiliser l'arme sans malus, sinon limite le dé de dégâts à dé de `Force` et pas de bonus allonge, `Parade`, ...  
+**Force** `Force` minimale requise pour utiliser l'arme sans malus, sinon limite le dé de dégâts à dé de `Force` et pas de bonus allonge, `Parade`, ...  
 **Pénétration d'Armure (PA) X** Ignore X pt d'armure, les PA > l'amure sont ignorés  
-**`Parade` +X** Ajoute X à la `Parade`  
+**Parade +X** Ajoute X à la `Parade`  
 **Portée** Courte pas de malus, Moyenne -2 au Tir, Longue -4 au Tir  
 **Rechargement** Nombre action nécessaire pour recharger  
 **Tir en Rafale** Tir 3 balles en 1 action +2 jet de TIr +2 Dégâts ( =/= **CdT**)  
