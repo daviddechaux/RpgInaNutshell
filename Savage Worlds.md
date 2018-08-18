@@ -390,7 +390,11 @@ On début la session avec 3 jetons
   - Les victimes d'ambuscade test Perception. Ceux qui reussissent reçoivent 1 carte. Les autres ne jouent pas ce tour.
 
 ### Mouvements
-- **Ramper** : 2 case par round, est considéré **A terre** lorssqu'on tire dessus
-- **Avancer accroupi** : `Allure` / 2. Course possible, `Allure` / 2, mais après le bonus de course. Tir -1 vs cibles accroupis
-- **A terre** : peut se jeter à terre lors de son action, couverture moyenne, se relever = 2 cases de mvt
-- **Sauter** : 1 case sans élan, 2 avec élan
+- **Ramper** : 2 case par round, est considéré **A terre** lorssqu'on tire dessus  
+- **Avancer accroupi** : `Allure` / 2. Course possible, `Allure` / 2, mais après le bonus de course. Tir -1 vs cibles accroupis  
+- **A terre** : peut se jeter à terre lors de son action, couverture moyenne, se relever = 2 cases de mvt  
+- **Terrain difficile** : Chaque case compte double  
+- **Sauter** : 1 case sans élan, 2 avec élan  
+- **Courir** : +1d6 case, est considéré comme une action  
+
+### Actions
