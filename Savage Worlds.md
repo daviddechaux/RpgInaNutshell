@@ -7,7 +7,8 @@ Les règles additionnels pour _Beast and Barbarians_ sont également incluses
 
 # Vocabulaire à la con
 `Relance` Obtenir 4 de plus que la difficulté. 1 relance par tranche de 4. 11 = 1 `relance`, 12 = 2 `relances` _(Réussite, succès ?)_.  
-`As` Obtenir le maximum sur un jé de dé, dans ce cas on a le droit de relancer le dé jusqu'à ne plus obtenir d'`As`.  
+`As` Obtenir le maximum sur un jé de dé, dans ce cas on a le droit de relancer le dé jusqu'à ne plus obtenir d'`As`.   
+`As (Carte)` La carte as quoi... c'est la plus forte après le joker  
 `As (Atout)` +2 __Conduite__, __Navigation__ et __Pilotage__. Peut faire un jet de `Résistance` pour un véhicule en réussissant un jet à -2 _(Pilote ?)_.  
 `Joker` Personnage important, genre les joueurs, les méchants nommés, ...    
 `Dé Joker` Dé 6 lancer lors d'un jet de trait.  
@@ -403,3 +404,40 @@ On début la session avec 3 jetons
 - **Courir** : +1d6 case, est considéré comme une action  
 
 ### Actions
+- Les mouvements sont des actions grauites tant que dans la limite de l'`Allure`.  
+- **Dégainer une arme** prend un round complet.  
+- Dégainer 2 armes, une arme cachée ou difficilement accessible (un holster à la cheville, ...), ou encore se mettre en position avec une arme particulièrement encombrante se déroule de la même manière, mais nécessite un jet d’`Agilité`. Si échec, l’arme est sortie, mais le personnage ne peut pas s’en servir ce round.
+
+#### Action multiple
+- On ne peut pas tirer plus de coups que la **CdT** de son arme en 1 round.  
+- On ne peut pas faire plus d’1 attaque de __Combat__ avec la même arme dans un round.  
+- Sauf cas contraire, pas 2 fois la même action.  
+- Chaque action au delà de la 1ère inflige un malus de -2 à tous les jets pour le round (y compris pour la 1ère action).    
+- On peut faire ces actions à n’importe quel moment au cours de son mouvement.  
+- **Actions gratuites** : Déclamer une phrase ou deux, déplacer un personnage d’un nombre de cases inférieur ou égal à son mouvement, se jeter à terre, résister lors d’un jet opposé, lâcher un objet, ...  
+- **Un seul dé Joker par action** : Si plusieurs dés dans une seule action (tirer plusieurs coups avec un fusil mitrailleur) on ne lance qu’un dé Joker. Le dé Joker doit soit remplacer
+un des jets de **Compétence**, soit être ignoré. En aucun cas il ne peut servir à rajouter une action ou une attaque lors d’un jet de dé.
+
+### Attaques
+#### Combat en mêlée
+Difficulté = `Parade` de l’adversaire.
+- **Bonus aux dégâts** : Si Relance, +1d6 aux dégâts. Ce d6 peut faire des As.  
+
+#### Attaques à distance
+**Tir** représente tout ce qui va des pistolets aux lance-roquettes en passant par les arcs.  
+Difficulté Portée Courte = 4  
+
+Portée  | Modificateur
+--------|----------
+Moyenne | -2
+Longue  | -4
+
+- **Bonus aux dégâts** : Si Relance, +1d6 aux dégâts. Ce d6 peut faire des As.   
+- **Cadence de Tir** : Représente le nombre de jets de **Tir** on a droit quand on tire avec une arme. Ces tirs doivent tous être lancés en même temps. Chaque point de CdT ajoute au un dé de **Tir**. Un pistolet avec une **CdT** de 2 = 2 dés de **Tir**. Puvent être répartis sur autant de cibles différentes, au choix du joueur, mais doivent tous être lancés en même temps. 1 seul dé joker.   
+
+Couverture     | Malus
+---------------|---------------------------------
+légère         | -1 aux jets d’attaque contre elle.
+moyenne        | -2. C’est la pénalité **à terre**
+importante     | -4
+presque totale | -6
