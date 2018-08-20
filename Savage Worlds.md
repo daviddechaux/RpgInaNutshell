@@ -437,7 +437,100 @@ Longue  | -4
 
 Couverture     | Malus
 ---------------|---------------------------------
-légère         | -1 aux jets d’attaque contre elle.
-moyenne        | -2. C’est la pénalité **à terre**
-importante     | -4
-presque totale | -6
+Légère         | -1 aux jets d’attaque contre elle.
+Moyenne        | -2, pénalité **à terre**
+Importante     | -4 (un partie du corps visible)
+Presque totale | -6 (à travers une meutrière)
+
+
+Visibilité     | Malus
+---------------|---------------------------------
+pénombre       | -1 aux jets d’attaque
+Obscurité      | -2 aux jets d’attaque, les cibles ne sont pas visibles au delà de 10 cases
+Ténèbres       | -4 impossible de distinguer les cibles
+
+- **Tirer en aveugle** : -4 aux jets d’attaque, la cible peut faire un jet de __Discrétion__ (le tireur rate). Ce jet subit un malus de -2 si atk avec arme avec CdT à 3+.  
+
+### Dégâts
+`Force` du personnange + dégâts de l'arme, ex : Un PJ avec `Force` d12 et épée longue (d8) lance d12 + d8 de dégâts.  
+- **Combat à mains nues** : Dégâts = `Force`.  
+- **Bonus aux dégâts** : Si une relance, +1d6 dégâts.  
+
+Si dégâts >= `Résistance`, victime est **Secoué**. Si une ou plusieurs relances, elle est blessée  
+- **Succès** : la victime est **Secouée**. Si elle était déjà **Secouée**, elle subit une blessure et reste **Secouée**. Seules les attaques physique peuvent provoquer des blessures (pas d'épreuves de volonté).  
+- **Relance** : La victime subit une blessure / relance + état **Secoué**.  
+
+#### Secoué
+A son tour le perso **Secoué** doit faire une jet d'`Âme`
+- **Échec** : reste **Secoué**. Ne peut faire que des actions gratuites
+- **Succès** : N’est plus Secoué, mais ne peut là encore faire que des actions gratuites.
+- **Relance** : N’est plus Secoué. Récupère immédiatement et peut agir normalement ce round.
+- **Utiliser un Jeton** : Un joker peut utiliser un Jeton n’importe quand pour annuler **Secoué**. Pendant son propre tour, il peut agir immédiatement.  
+
+#### Blessures
+Les Extras subissant une blessure sont retirés du jeu.  
+Un Joker peut subir trois blessures avant d’être dans un État critique.  
+A la 4ème blessure, faire jet sur le tableau : 
+
+| 2d6     | Blessure
+|---------|--------------------------------------------------------------------------------------------------------
+| 2       | Entrejambe : si blessure permanente, pas de reproduction sans chirurgie miraculeuse ou magie puissante.
+| 3-4     | Bras : random bras droit ou du bras gauche. Le bras est inutilisable comme avec le handicap Manchot
+| 5-9     | Tripes : votre héros s’est pris un coup entre la hanche et les épaules. Tirez 1d6 :
+| -       | 1-2 Fracture : l’`Agilité` est réduite d’un dé (minimum d4).
+| -       | 3-4 Contusion : la `Vigueur` est réduite d’un dé (minimum d4).
+| -       | 5-6 Déchirure : la `Force` est réduite d’un dé (minimum d4).
+| 10      | Jambe : random jambe droite ou de la gauche. La jambe touchée est inutilisable comme avec le handicap Boiteux (ou  Unijambiste si le personnage était déjà boiteux).
+| 11-12   | Tête : une grave blessure à la tête. Lancez 1d6 :
+| -       | 1-2 Balafre : le héros reçoit le Handicap Moche.
+| -       | 3-4 Borgne : le héros reçoit le Handicap Borgne (ou Aveugle s’il était déjà Borgne).
+| -       | 5-6 Cerveau touché : l’Intellect est réduit d’un dé (minimum d4)
+
+- **Malus de blessure** : -1 `Allure` / blessure (min 1) et -1 à tous les jets de traits.  
+- **Timing** : Si plsieurs blessures simultanées, les résoudres les unes après les autres (les malus s'appliquent).  
+
+#### État critique
+Un Joker **État critique** si 3+ blessures. 
+
+jet de `Vigueur` :
+- **1 ou moins** : le héros est mort.
+- **Échec** : jet sur Table des blessures. La blessure est permanente + hémorragie
+- **Succès** : jet sur Table des blessures. Les effets disparaîtront après soins.
+- **Relance** : jet Table des blessures. Les effets disparaîtront après 24 heures, ou après soins.
+
+- **Hémorragie** : au début de chaque round, avant d'avoit tirer Cartes d’action, faire jet de `Vigueur` :
+- **Échec** : Meurt d’hémorragie. 
+- **Succès** : Devra refaire un jet le round suivant, ou la minute suivante si hors combat.  
+- **Relance** : l’hémorragie est endiguée, et la vie du perso n’est plus en danger. Il n’aura plus à faire de jet.  
+Peut-être endiguée avec jet de **Soin** (succès nécessaire). Ne fait que stopper le saignement, ne soigne pas la blessure.  
+
+### Les jets d’encaissement
+Peut utiliser un Jeton pour faire un jet d’encaissement juste après avoir subi une blessure. Il s’agit d’un jet de `Vigueur`.  
+Chaque succès et relance réduit de 1 le nb de blessures subies.  
+- **Timing** : 1 jet / attaque.
+- **Secoué** : Peut dépenser un Jeton pour éliminer un état **Secoué**. Peut être fait à tout moment, même juste après un jet d’`Âme` raté pour récupérer.  
+
+## Règles de situations de combat
+#### Armes improvisées
+-1 à ses jets de __Combat__ ou de __Lancer__, ainsi qu’un malus de -1 en `Parade`.  
+- **Arme improvisée (petite)** : Portée 3 / 6 / 12, Dégâts For + d4, **CdT** 1, `Force` min. d4, -1 jet attaque et `Parade`.  
+- **Arme improvisée (moyenne)** : Portée 2 / 4 / 8, Dégâts For + d6, **CdT** 1, `Force` min. d6, -1 jet attaque et `Parade`.  
+- **Arme improvisée (grande)** : Portée 1 / 2 / 4, Dégâts For + d8, **CdT** 1, `Force` min. d8, -1 jet attaque et `Parade`.  
+
+#### Attaque ciblée
+- **Membre (-2)** : Pas de dégâts supplémentaires, peut ignorer l’armure, ou avoir d’autres effets (voir l’actionde Désarmement).   
+- **Tête ou point vital (-4)** : +4 aux dégâts. Il est d'avoir des parties vitales et que l’attaquant en connaisse la localisation.  
+- **Petite cible (-4)** : Coeur d’un vampire ou l’écaille brisée de la poitrine d’un dragon. Les effets dépendent de la situation : le vampire pourrait mourir instantanément, le dragon serait privé d’armure, etc. Si le MJ n’a pas d’effet particulier qui lui vient à l’esprit, peut octroyer un bonus de +4 aux dégâts comme dans le cas d’une attaque à la tête.  
+- **Cible minuscule (-6)** : Fente des yeux d’un heaume de chevalier. Les effets dépendent de la cible. Dans le cas du chevalier, le coup ignorerait l’armure et octroierait un bonus de +4 aux dégâts à cause du coup à la tête.  
+
+#### Attaque avec la main non directrice
+__Combat__ ou __Tir__ (__Lancer__ ?), se font avec un malus de -2 avec la main non directrice.  
+
+#### Attaque rapide
+Jusqu’à trois attaques en une seule action. Faites un jet de __Combat__ par attaque, assorti d’un malus de -4 chacun. Les Jokers lancent un dé Joker comme d’habitude.  
+Les attaques à distance avec une arme semi-automatique ou un revolver peuvent tirer jusqu’à six coups avec chacun un malus de -4. Avec un revolver, on appelle cette action « double action », et celleci requiert l’utilisation des deux mains.  
+De plus, l’attaque rapide infligent à l’attaquant un malus de -2 en `Parade`.  
+L’attaque rapide n’est pas cumulable avec d’autres effets qui permettent plusieurs attaques en une seule action (Balayage, Frénésie, Tir automatique, Combat à deux armes), ni avec les options d’attaque Semi-automatique / Double action ou Tir en rafale.
+Toutes les attaques sont résolues simultanément, mais l’attaquant peut choisir différentes cibles s’il le souhaite.
+
+#### Attaque surprise
