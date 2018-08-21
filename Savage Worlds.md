@@ -527,10 +527,46 @@ Chaque succès et relance réduit de 1 le nb de blessures subies.
 __Combat__ ou __Tir__ (__Lancer__ ?), se font avec un malus de -2 avec la main non directrice.  
 
 #### Attaque rapide
-Jusqu’à trois attaques en une seule action. Faites un jet de __Combat__ par attaque, assorti d’un malus de -4 chacun. Les Jokers lancent un dé Joker comme d’habitude.  
-Les attaques à distance avec une arme semi-automatique ou un revolver peuvent tirer jusqu’à six coups avec chacun un malus de -4. Avec un revolver, on appelle cette action « double action », et celleci requiert l’utilisation des deux mains.  
+Jusqu’à 3 attaques en une seule action. Jet __Combat__ / attaque malus -4 chacun.    
+Les __Tir__ avec semi-automatique ou revolver peuvent tirer jusqu’à six coups avec chacun un malus de -4. Avec un revolver, on appelle cette action « double action », et celleci requiert l’utilisation des deux mains.  
 De plus, l’attaque rapide infligent à l’attaquant un malus de -2 en `Parade`.  
 L’attaque rapide n’est pas cumulable avec d’autres effets qui permettent plusieurs attaques en une seule action (Balayage, Frénésie, Tir automatique, Combat à deux armes), ni avec les options d’attaque Semi-automatique / Double action ou Tir en rafale.
 Toutes les attaques sont résolues simultanément, mais l’attaquant peut choisir différentes cibles s’il le souhaite.
 
 #### Attaque surprise
+L’attaquant est considéré comme étant **En attente**, et bénéficie de bonus de +4 à l’attaque et aux dégâts s’il décide de frapper.
+
+#### Attaque totale
++2 aux jets de __Combat__ et de dégâts, mais le score de -2 `Parade` jusqu’à sa prochaine action.
+
+#### Attaque pour toucher
++2 à son jet de __Combat__.
+
+#### Attaque de zone
+Placer le gabarit à l’endroit où il souhaite, puis jet de __Tir__ ou __Lancer__.    
+- **Succès**, l’explosion a lieu à l’endroit désiré. Tout ce qui se trouve sous le gabarit (même partiellement) est affecté.    
+- **Echec**, l’explosion n’a pas lieu à l’endroit escompté. Déviation : 1d6 pour __Lancer__ ou 1d10 pour un __Tir__, *2 si Portée Moyenne, *3 si Portée Longue = nb case de déviation; puis 1d12 pour la direction comme en lisant sur le cadran d’une montre (utiliser le dé Warhammer).  
+- **Couverture** : les cibles **A terre** ou à couvert sont protégées contre les attaques de zones. Elles reçoivent pt armure que le malus de couverture à une attaque à distance.   
+- **Plonger à couvert** : les armes lancées avec une Aire d’effet (comme les grenades), ainsi que l’artillerie, donnent la chance aux cibles de tenter de s’extraire de la zone dangereuse. Une cible ayant vu le danger peut faire un jet d’`Agilité` avec un malus de -2 pour bondir hors de la zone d’explosion et échapper aux dégâts. En cas de succès, le personnage est placé juste en dehors du Gabarit, à l’endroit où il le souhaite. Les grenades peuvent également être renvoyées (voir Grenades, p. 87).
+
+#### Attaquer à plusieurs
+Chaque attaquant adjacent au delà du premier ajoute +1 à tous les jets de __Combats__ des attaquants, jusqu’à un maximum de +4.  
+
+#### Casser des trucs
+La `Parade` d’un objet inanimé est 2.  
+Les Relances sur le jet d’attaque n’apportent pas de dés de dégâts supplémentaires, et que les dés ne font pas d’As.  
+Si les dégâts >= `Résistance` de l’objet, ce dernier est brisé, détruit, tordu ou inutilisable.
+
+Objet           | Résistance | Type de dégâts
+----------------|------------|----------------------
+Porte           | 8          | Contondant, Tranchant
+Porte renforcée | 10         | Contondant, Tranchant
+Serrure         | 8          | Contondant, Perforant
+Menottes        | 12         | Contondant, Tranchant, Perforant
+Couteau, épée   | 10         | Contondant, Tranchant
+Corde           | 4          | Tranchant, Perforant
+Petit Bouclier  | 8          | Contondant, Tranchant
+Bouclier moyen  | 10         | Contondant, Tranchant
+Grand Bouclier  | 12         | Contondant, Tranchant
+
+#### Combat monté
