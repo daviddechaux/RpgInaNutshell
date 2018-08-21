@@ -1,7 +1,7 @@
 ![Savage World](https://www.black-book-editions.fr/contenu/image/Images_divers/JDR_Savage%20Worlds/SW_00_Savage%20Worlds_LOGO.jpg)
 
 Cette page présente un résumé des règles pour _Savage Worlds_.  
-Les règles additionnels pour _Beast and Barbarians_ sont également incluses  
+Les règles additionnelles pour _Beast and Barbarians_ sont également incluses  
 
 ![Beast and Barbarians](http://www.legrog.org/visuels/couvertures/14797.jpg)
 
