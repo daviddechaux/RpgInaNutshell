@@ -17,7 +17,7 @@ Les règles additionnelles pour _Beast and Barbarians_ sont également incluses
 ![Genius](https://vignette.wikia.nocookie.net/warframe/images/6/64/Genius_10108899_orig_.png/revision/latest?cb=20160130130813&path-prefix=ru)
 
 #### Notes :
-[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 > `Attribut`  
 > __Compétence__  
@@ -26,9 +26,11 @@ Les règles additionnelles pour _Beast and Barbarians_ sont également incluses
 
 # Création de personnage
 ## Race
-> Dans Beast & Barbarians on ne joue que des humains  
-
+> Dans Beast & Barbarians on ne joue que des humains   
+> p 33  
 __Todo__
+
+- **Humain** : +1 Atout
 
 ## Traits
 ### Attributs
@@ -570,3 +572,84 @@ Bouclier moyen  | 10         | Contondant, Tranchant
 Grand Bouclier  | 12         | Contondant, Tranchant
 
 #### Combat monté
+- **Combattre** : On utilise la plus basse de ses comp entre __Combat__ et __Équitation__.  
+- **Collision** : Le personnage monté et sa monture subissent des dégâts de collision.  
+- **Galop** : -2 à ses attaques (Comp __Combat__  / __Tir__ / __Lancer__ ?) si sa monture au galop.  
+- **Chute** : Chaque fois qu'il est Secoué / subit une blessure, un jet d’__Équitation__. Si d’échec, il tombe => 2d6 pts de dégâts si monture est en mouvement, 1d6 si à l'arrêt.  
+- **Tirer sur des cibles montées** : Utiliser les règles pour les Dommages collatéraux pour déterminer qui est touchée. On peut viser cheval lui-même.  
+- **Charge** : Un cavalier en charge +4 à ses dégâts. Pour être considéré en charge, il doit avoir déplacé sa monture d’au moins 6 cases en ligne relativement droite en direction de sa cible.   
+- **Armes en opposition** : Une arme avec **Allonge** de 1 ou plus peut être mise en opposition pour recevoir une charge. Le personnage doit être **En attente** lorsqu’il est pris pour cible par une charge. il peut bloquer la charge, mais chaque combattant bénéficie d’un bonus de +2 à son jet d’`Agilité` / pt d’**Allonge**. Le vainqueur attaque en premier et bénéficie d’un bonus de +4 sur ses dégâts. Le perdant n’obtient aucun bonus.  
+- **Monture blessée** : Si monture Secouée ou blessée, elle se cabre ou rue => jet d’__Équitation__. Les montures non entraînées fuient dans une direction aléatoire si Secouées, entraînant leurs cavaliers avec elles.  
+
+#### Combattre à deux armes
+Combattre avec une arme dans chaque main = action multiple => -2 à chacune des deux actions ( l’Atout Combat à deux armes annule ce malus d’Actions multiples). Si héros n'est pas Ambidextre, il subit un malus **supplémentaire** de -2 pour sa main non directrice.  
+
+#### Coup de grâce
+Une victime sans défense (ligotée, inconsciente, etc.) peut être achevée d’une Action simple avec n’importe quelle arme létale. Réussite automatique à moins que le MJ n’en décide autrement.  
+
+#### Défense
+Si la seule action d’un personnage durant un Round consiste à se défendre, +2 `Parade` jusqu’à son action suivante. Il peut se déplacer normalement dans le même temps, mais il ne peut ni courir ni faire une autre action.  
+
+##### Défense totale
+Un personnage peut opter pour une action totalement défensive. Jet de __Combat__ avec un bonus de +2 et utilise le résultat à la place de sa `Parade` jusqu’à son action suivante. C’est un jet de Trait.  
+`Parade` ne peut pas être réduite par ce jet. Si jet <, `Parade` d’origine est conservée (mais le personnage ne gagne aucun bénéfice de l’action de Défense totale).  
+Ne peut pas se déplacer. Son attention est fixée sur ses adversaires et les coups qu’il doit parer ou esquiver. Si vous souhaitez déplacer votre personnage dans le même temps, utilisez l’action **Défense**.
+
+#### Défenseur désarmé
+Si pas d'arme de Corps à Corps (CàC) : considéré comme désarmé. Il ne peut qu’esquiver et éviter les coups, sans la possibilité de parer. Ceux qui l’attaquent bénéficient d’un bonus de +2 jet __Combat__.  Griffes et leurs crocs comptent comme des armes.  
+
+#### Dégâts non létaux
+Frapper alors avec ses poings ou avec une arme contondante. Les armes tranchantes sont également utilisables mais -1 jets __Combat__.  
+Blessures comme d’habitude, mais si État critique il pendant 1d6 heures.  
+
+#### Désarmement
+1. Réussir à toucher le bras de son adversaire (attaque à -2, voir les Attaques ciblées).  
+2. Le défenseur jet `Force`. Si < dégâts de l’attaque, il lâche son arme.   
+Attaque non létale possible avec arme de CàC. Si une arme à distance, attaque non létale   possible en visant directement l’arme (en général avec un malus de -4 au lieu de -2) au lieu du membre.
+
+#### Dommages collatéraux
+Quand rate __Tir__ ou __Lancer__, des cibles potentielles peuvent être touchées.   
+Si **dé** attaque à distance = 1, une cible aléatoire adjacente a été touchée.   
+Dans le cas d’un tir automatique ou d’un tir de fusil  de chasse ou à pompe, un jet de 1 ou 2 indique un résultat identique. Les jets de dégâts sont lancés normalement.
+Les chevaux et autres animaux sont des cibles potentielles lorsqu’on tire sur des personnages montés.
+
+#### Empoignade
+Jet de __Combat__ qui ne cause aucun dégât. Si réussite, attaquant empoigne sa cible. Si Relance, la victime est Secouée.  
+Le défenseur peut tenter de se défaire de l’emprise. Lui et l’attaquant choisissent chacun `Force` ou `Agilité`, et font un Jet Opposé. En cas de succès, le défenseur est libre mais ne peut plus agir ce Round. Avec une Relance, il est libre et peut en outre agir normalement. En cas d’échec, il est toujours sous l’emprise de son adversaire.  
+Le défenseur a aussi la possibilité de tenter une autre action que d’essayer de se libérer, mais avec un malus de -4.
+Après avoir réussi une empoignade, l’attaquant peut tenter d’infliger des dégâts à sa victime en faisant un jet opposé comme expliqué ci-dessus. En cas de succès, il inflige son dé de `Force` en dégâts au défenseur (et 1d6 de dégâts supplémentaire en cas de Relance).
+
+#### Épreuves de volonté
+__Intimidation__ et __Sarcasme__ permettent d’initier des **Épreuves de volonté**.  
+Pour initier une Épreuve de volonté, jet opposé contre son adversaire. Le défenseur utilise son `Intellect` pour résister au `Sarcasme`, et son `Âme` pour résister à l’`Intimidation`.  
+Le MJ devra vraisemblablement attribuer des bonus ou des malus en fonction de la situation.   
+Un succès signifie que l’attaquant aura un bonus de +2 lors de sa prochaine action contre le défenseur au cours de ce combat. Avec une Relance, le défenseur est en outre Secoué.  
+
+#### Obstacles
+Pour attaquer à travers un objet, on détermine d’abord si l’attaque touche. En cas d’échec, on ne dénote aucun effet spécial si ce n’est un petit trou dans l’obstacle.  
+Si l’attaque aurait touché sans le modificateur de couverture, alors l’obstacle agit comme une armure pour la cible. Cette armure est directement ajoutée à la `Résistance` du personnage, en supplément de l’armure qu’il porte dans la localisation touchée. On soustrait la valeur de Pénétration d’Armure de l’arme de l’armure totale et non de chaque bonus.
+
+Armure | Obstacle
+-------|------------------------------------------------------------
++1     | Verre, cuir
++2     | Verre double-vitrage, bouclier
++3     | Mur d’intérieur moderne, plaque de métal, porte de voiture
++4     | Porte de chêne, épaisse plaque de métal
++6     | Mur de parpaings
++8     | Mur de briques
++10    | Mur de pierre, verre blindé
+
+#### Plateforme instable
+Un personnage attaquant à distance sur le dos d’un cheval ou d’une autre monture, d’un véhicule en mouvement ou de toute autre « plateforme instable » subit un malus de -2 à son jet de __Tir__.
+
+#### Pousser
+Jet opposé de `Force` contre sa victime.   
+Si l’attaquant a couru au moins 3 cases avant de pousser, bonus de +2 au jet opposé.
+En cas de succès, il a trois possibilités :
+- **Repousser** : Recule d’1 case pour un succès et de 2 cases en cas de Relance. Si heurte un mur, 1d6 de dégâts / case qu’elle aurait dû parcourir.
+- **Repousser au bouclier** : si l’attaquant est équipé d’un bouclier, il peut repousser son adversaire comme ci-dessus, mais occasionne des dégâts égaux à sa `Force`. Ajoutez +1 pour un petit bouclier, +2 pour un moyen et +3 pour un grand.
+- **Faire chuter** : Tombe au sol.  
+(=> Si l'un des protagoniste a couru 3 cases il bénéficie de +2 plutôt que l'attaquant ?)
+
+#### Rompre le combat en mêlée
+Tentative de retraite d’un CàC, tous les adversaires adjacents non Secoués ont droit à une attaque gratuite. Un personnage peut utiliser l’action de Défense, mais ne pourra pas faire d’autres actions ce Round à part se déplacer, et subira quand même les attaques gratuites. 
