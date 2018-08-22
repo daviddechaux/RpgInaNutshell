@@ -4,6 +4,8 @@ Cette page présente un résumé des règles pour _Savage Worlds_.
 Les règles additionnelles pour _Beast and Barbarians_ sont également incluses  
 
 ![Beast and Barbarians](http://www.legrog.org/visuels/couvertures/14797.jpg)
+https://view.genial.ly/5a197b67a3a6174d38f0be23/bandbscenarios
+
 
 # Vocabulaire à la con
 `Relance` Obtenir 4 de plus que la difficulté. 1 relance par tranche de 4. 11 = 1 `relance`, 12 = 2 `relances` _(Réussite, succès ?)_.  
