@@ -719,11 +719,34 @@ Un personnage qui passe un round complet à viser (sans le moindre mouvement) pe
 
 
 # Guérison
+__Soins__ peut être utilisée pour traiter toute blessure vieille de moins d’une heure. 10 minutes / tentative.   
+Un personnage peut tenter de soigner uniquement des blessures récentes. Un autre personnage pourra lui-aussi s’y pencher, mais quel que soit le résultat d’un jet de __Soins__, le soigneur a fait tout ce qu’il pouvait pour ce personnage et ses blessures.
+Un succès annule une blessure, et une Relance une autre. D’autres Relances n’ont pas d’effets.
+- **Modificateur** : nb blessures = malus au jet de __Soins__. Un soigneur lui-même blessé ajoutera les malus dus à ses propres blessures ainsi que les malus liés aux blessures de son patient.
+- Soigner nécessite bandages / l’eau raisonnablement pure / ... Sans cet équipement, -2 à son jet.
+- **L’heure d’or** : au-delà d’une heure après le moment où les blessures ont été causées, seuls la guérison naturelle et le pouvoir de Grande guérison pourront être d’une quelconque utilité.
+- **Patients dans un État critique** : le soigneur doit tout d’abord réussir un premier jet de __Soins__ pour stabiliser l’état du patient, avant de pouvoir tenter un second jet pour éliminer des blessures.
+
+#### Guérison naturelle
+Tous les cinq jours, les personnages blessés font un jet de `Vigueur`.  
+Les Jokers peuvent annuler une blessure (ou l’état d’inconscience) avec un succès, et deux blessures avec une Relance. Un échec critique sur un jet de Guérison naturelle provoque une nouvelle blessure. Si le héros avait déjà trois blessures, il tombe dans l’inconscience. Les Extras sortent de l’inconscience grâce à un succès, et trépassent sur un 1 sur le dé de `Vigueur`. Les pénalités dues aux blessures s’appliquent à ces jets. 
+
+Modificateur | Circonstances
+-------------|--------------------------------------
+-2           | Voyage dans des conditions difficiles
+-2           | Aucune surveillance médicale
+-2           | Environnement défavorable, comme un froid intense, la chaleur ou une pluie battante
+-            | Surveillance médicale (avant 1940)
++1           | Surveillance médicale (1941 et après)
++2           | Surveillance médicale (2010 et au delà)
 
 
-La Compétence Soins peut être utilisée pour
-traiter toute blessure vieille de moins d’une
-heure. Chaque tentative prend 10 minutes.
-Un personnage peut tenter de soigner uniquement
-des blessures récentes. Un autre
-personnage pourra lui-aussi s’y pencher, mais
+#### Suites
+Après un combat, les joueurs font des jets de `Vigueur` pour tous leurs alliés blessés. Avec un succès, le personnage est vivant mais en Étatcritique. Avec un échec, il est mort. Avec une Relance, les blessures n’étaient que superficielles et le personnage peut agir normalement.
+- **Blessés capables de marcher** : il peut devenir important de savoir lesquels des personnages passés par un État critique au cours d’un combat peuvent se déplacer d’eux-mêmes. Chacun doit faire un nouveau jet de `Vigueur`. Ceux qui réussissent peuvent se mouvoir lentement en boitillant, mais demeurent incapables de combattre ou de participer à une quelconque action utile.
+Ceux qui ratent le jet peuvent être déplacés, mais au risque d’aggraver leurs blessures. Ils doivent faire un nouveau jet de `Vigueur` toutes les heures. En cas d’échec, ils commencent à glisser vers la mort. Ils peuvent être stabilisés
+grâce à un jet de __Soins__ avec un malus de -2, mais tout mouvement supplémentaire sera sûrement fatal.
+
+# Règles de situation
+## Poursuites
+> p 143
