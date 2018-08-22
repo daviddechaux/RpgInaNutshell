@@ -731,14 +731,14 @@ Un succès annule une blessure, et une Relance une autre. D’autres Relances n�
 Tous les cinq jours, les personnages blessés font un jet de `Vigueur`.  
 Les Jokers peuvent annuler une blessure (ou l’état d’inconscience) avec un succès, et deux blessures avec une Relance. Un échec critique sur un jet de Guérison naturelle provoque une nouvelle blessure. Si le héros avait déjà trois blessures, il tombe dans l’inconscience. Les Extras sortent de l’inconscience grâce à un succès, et trépassent sur un 1 sur le dé de `Vigueur`. Les pénalités dues aux blessures s’appliquent à ces jets. 
 
-Modificateur | Circonstances
--------------|--------------------------------------
--2           | Voyage dans des conditions difficiles
--2           | Aucune surveillance médicale
--2           | Environnement défavorable, comme un froid intense, la chaleur ou une pluie battante
--            | Surveillance médicale (avant 1940)
-+1           | Surveillance médicale (1941 et après)
-+2           | Surveillance médicale (2010 et au delà)
+| Modificateur | Circonstances
+|--------------|--------------------------------------
+| -2           | Voyage dans des conditions difficiles
+| -2           | Aucune surveillance médicale
+| -2           | Environnement défavorable, comme un froid intense, la chaleur ou une pluie battante
+| -            | Surveillance médicale (avant 1940)
+| +1           | Surveillance médicale (1941 et après)
+| +2           | Surveillance médicale (2010 et au delà)
 
 
 #### Suites
