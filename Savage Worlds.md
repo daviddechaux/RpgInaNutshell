@@ -513,6 +513,43 @@ Chaque succès et relance réduit de 1 le nb de blessures subies.
 - **Secoué** : Peut dépenser un Jeton pour éliminer un état **Secoué**. Peut être fait à tout moment, même juste après un jet d’`Âme` raté pour récupérer.  
 
 ## Règles de situations de combat
+
+### Résumé des options de combat
+Option                                    | Effet
+------------------------------------------|---------------------------------------------------------
+À terre                                   | Couverture moyenne; `Parade` -2 et __Combat__ -2.
+Armes à distance dans un CàC              | Pistolets seulement; Difficulté pour toucher = `Parade` de l’adversaire.
+Armes improvisées                         | Petite : Portée 3 / 6 / 12, Dégâts For+d4, **CdT** 1, `Force` min. d4, -1 attaque et `Parade`; Moyenne : Portée 2 / 4 / 8, Dégâts For+d6, **CdT** 1 `Force` min. d6, -1 attaque et `Parade`; Grande : Portée 1 / 2 / 4, Dégâts For+d8, **CdT** 1, `Force` min. d8, -1 attaque et `Parade`
+Attaque ciblée                            | Membre -2; Tête -4; Petite cible -4; Cible minuscule -6.
+Attaquer à plusieurs                      | +1 à l’attaque / combattant supplémentaire; maximum +4.
+Attaque rapide                            | 3 attaques à -4 ou 6 tirs à -4 avec une arme semiautomatique ou un revolver.
+Attaque surprise                          | +4 à l’attaque et aux dégâts.
+Attaque totale                            | __Combat__ +2, Dégâts +2, `Parade` -2
+Attaque pour toucher                      | __Combat__ +2
+Attaque de zone                           | Cibles sous le gabarit subissent des dégâts. Couverture compte comme de l’Armure. Attaques ratées => déviation 1d6 cases pour les armes lancées, 1d10 pour les armes à projectiles, ×1 pour une Portée Courte, ×2 pour une Portée Moyenne et ×3 pour une Portée Longue.
+Casser des trucs                          | Voir la Table Résistance des obstacles. `Parade` 2. Pas de bonus aux dégâts ou d’As.
+Combattre à deux armes                    | -2 aux attaques, -2 supplémentaire sur la main non-directrice sans l’Atout Ambidextre.
+Coup de grâce                             | Mort instantanée d’une victime sans défense si l’attaque a lieu avec une arme létale.
+Couverture                                | Légère -1; Moyenne -2; Totale -4
+Défense                                   | `Parade` +2; aucune autre action possible
+Défense totale                            | Un jet de __Combat__ remplace la `Parade` s’il lui est supérieur.
+Défenseur désarmé                         | __Combat__ +2 pour les attaquants armés.
+Dégâts non létaux                         | La victime est assommée dès qu’elle est dans un État critique.
+Désarmement                               | Attaque -2 ; le défenseur doit réussit un jet de `Force` contre les dégâts subits ou lâcher son arme.
+Dommages collatéraux                      | Un __Tir__ ou un __Lancer__ de 1 ou moins (2 ou moins pour un fusil de chasse ou à pompe ou en tir automatique) touche une cible adjacente. 
+Empoignade                                | Jet de __Combat__ pour agripper son adversaire. Relance = adversaire Secoué; Le défenseur fait un jet de `Force` ou d’`Agilité` pour s’extraire de la prise (toute autre action est à -4). L’attaquant peut faire des jets opposés de `Force` ou d’`Agilité` pour faire des dégâts.
+Obscurité                                 | Pénombre -1; Obscurité -2; Ténèbres : les cibles ne sont pas visibles au delà de 10 cases. Une cible détectée peut être attaquée à -4 
+Obstacles                                 | Si une attaque toucherait sans la couverture d’un obstacle, ce dernier agit comme une Armure.
+Plateforme instable                       | -2 en __Tir__ sur un véhicule ou une monture.
+Pousser                                   | Repousser : l’adversaire recule d’une case pour chaque succès et relance obtenu. Repousser au bouclier : comme ci-dessus +For de dégâts, +1 pour un petit bouclier, +2 pour un moyen et +3 pour un grand. Faire chuter : le défenseur tombe au sol.
+Rompre le combat                          | Les adversaires adjacents bénéficient d’une attaque gratuite.
+Ruses                                     | Le personnage décrit l’action ; il fait un jet opposé d’`Agilité` ou d’`Intelligence`. Succès => `Parade` -2 pour l’adversaire jusqu’à sa prochaine action. Relance => `Parade` -2 et Secoué.
+Semi-auto / Double action / Tir en rafale | +1 à l’attaque et aux dégâts / +2 à l’attaque et aux dégâts.
+Tir Automatique                           | Voir les règles page 127.
+Tir de barrage                            | Sur un jet de __Tir__ réussi, les cibles prises dans un gabarit moyen doivent réussir un jet d’`Âme` ou être Secouées; sur un 1, elles sont touchées (dégâts normaux).
+Tirer dans la mêlée                       | Voir Dommages collatéraux.
+Viser                                     | +2 en __Tir__ / __Lancer__ si le personnage ne se déplace pas.
+
 #### Armes improvisées
 -1 à ses jets de __Combat__ ou de __Lancer__, ainsi qu’un malus de -1 en `Parade`.  
 - **Arme improvisée (petite)** : Portée 3 / 6 / 12, Dégâts For + d4, **CdT** 1, `Force` min. d4, -1 jet attaque et `Parade`.  
@@ -653,3 +690,40 @@ En cas de succès, il a trois possibilités :
 
 #### Rompre le combat en mêlée
 Tentative de retraite d’un CàC, tous les adversaires adjacents non Secoués ont droit à une attaque gratuite. Un personnage peut utiliser l’action de Défense, mais ne pourra pas faire d’autres actions ce Round à part se déplacer, et subira quand même les attaques gratuites. 
+
+#### Ruses
+Manoeuvres inattendues ou des ruses pour distraire leurs adversaires et les rendre plus vulnérables aux attaques qui vont suivre. Il peut s’agir de sable jeté dans les yeux de l’adversaire, d’un héros qui se jette dans les jambes d’un ennemi, etc. Les ruses ne prennent pas en compte les feintes réalisées en combat, dont la connaissance est déjà prise en compte dans les scores de `Combat` et de `Parade`. Pour réussir une ruse, le personnage doit tout  d’abord décrire de façon précise ce qu’il souhaiteaccomplir. Ensuite il doit réussir un jet opposé d’`Agilité` ou d’`Intellect` contre son adversaire.  
+C’est le MJ qui détermine quel Attribut est le plus approprié à la ruse décrite par le personnage. Si le personnage réussit, l’adversaire est distrait et subit un malus de -2 en `Parade` jusqu’à sa prochaine action. En cas de Relance, il est en outre Secoué. Les pénalités dues aux ruses ne sont pas cumulables.
+
+#### Semi-automatique / Double action et Tir en rafale
+Un personnage muni d’une arme semi-automatique peut tirer deux coups simultanément. On effectue un simple jet de __Tir__ avec un bonus de +1, et en cas de succès, les dégâts bénéficient également d’un bonus de +1. Une telle manoeuvre utilise deux balles.   
+De nombreuses armes automatiques modernes, comme le M16A2, disposent d’un réglage permettant de passer d’un tir d’une seule balle à un tir en rafale. Passer d’un mode à l’autre est une Action gratuite. Tirer en rafale octroie un bonus de +2 au jet de __Tir__ et aux
+dégâts, et utilise le triple de munitions.  
+
+#### Tir Automatique
+Avec une arme automatique lancez un nombre de dés de __Tir__ égal à la **CdT** de l’arme. Comparez chaque dé séparément à la Difficulté pour savoir s’il touche. Les Jokers lancent 1 seul dé Joker (quelque soit le nombre de dés de __Tir__) mais ne peuvent pas toucher plus de fois que la **CdT** de l’arme.   
+- **Recul** : le tir automatique est typiquement moins précis à cause du recul entre chaque tir. -2 aux jets de __Tir__.  
+- **Tir automatique et munitions** : Chaque dé lancé en tir automatique représente un nombre de munitions égal à la **CdT** de l’arme pour ce qui est du décompte de munitions.
+  - La plupart des armes automatiques peuvent être réglées pour tirer soit en tir automatique soit en coup par coup.  
+- **Tir de barrage** : Dans ce cas, l’attaquant place un Gabarit Moyen sur la zone souhaitée, et fait un unique jet de __Tir__ (quelle que soit la **CdT**). On prend en compte les malus de distance, de tir automatique, et tout autre modificateur de circonstance, mais on ignore les modificateurs liés à chaque cible potentielle (comme la couverture par exemple), qui sont gérées différemment. Munitions = 5* **CdT**.  
+  - Echec, la rafale est sans effet.
+  - Succès, toutes les cibles font un jet d’`Âme`, en y incluant les modificateurs de couvert dont ils auraient bénéficié sur une attaque de ce type. Ceux qui échouent sont Secoués. Ceux qui tirent un 1 sur le dé d’`Âme` (sans tenir compte du dé Joker) sont effectivement touchés et subissent les dégâts normaux de l’arme.
+
+#### Tirer dans la mêlée
+Utiliset la règle des Dommages collatéraux lorsque la situation se présente.
+
+#### Viser
+Un personnage qui passe un round complet à viser (sans le moindre mouvement) peut bénéficier +2 à son prochain jet de __Tir__ ou de __Lancer__. Viser plus longtemps n’apporte pas de bonus supplémentaire.
+
+
+
+
+# Guérison
+
+
+La Compétence Soins peut être utilisée pour
+traiter toute blessure vieille de moins d’une
+heure. Chaque tentative prend 10 minutes.
+Un personnage peut tenter de soigner uniquement
+des blessures récentes. Un autre
+personnage pourra lui-aussi s’y pencher, mais
