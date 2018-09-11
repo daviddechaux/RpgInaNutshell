@@ -3,7 +3,9 @@
 Cette page présente un résumé des règles pour _Savage Worlds_.  
 Les règles additionnelles pour _Beast and Barbarians_ sont également incluses  
 
-![Beast and Barbarians](http://www.legrog.org/visuels/couvertures/14797.jpg)
+![Beast and Barbarians](http://www.legrog.org/visuels/couvertures/14797.jpg)  
+
+
 https://view.genial.ly/5a197b67a3a6174d38f0be23/bandbscenarios
 
 
@@ -59,7 +61,8 @@ __Todo__
   - 1 pt si Compétence < Attribut 
   - 2 pts si Compétence >= Attribut 
 
-| Nom                       | Trait       |
+
+| Compétence                | Attribut    |
 |---------------------------|-------------|
 | Combat                    | `Agilité`   |	
 | Conduite                  | `Agilité`   |
@@ -752,3 +755,176 @@ grâce à un jet de __Soins__ avec un malus de -2, mais tout mouvement suppléme
 # Règles de situation
 ## Poursuites
 > p 143
+
+Longueur de la pourquite : 
+- **Standard** : 5 rounds (1 round = 1 minute)  
+- **Etendue** : 10 rounds (1 round = 1 minute ou 1 heure ou des jours)  
+- **Dogfight** : Se fait avec des combattant extrêment mobiles comme des avions (a priori pas dans _B&B_)  
+A la fin du dernier round de poursuite tous les poursuivis non ratrappés ont été capturés.
+
+#### Cartes de poursuite
+Chaque participant fait un jet de trait :  
+- `Agilité` : à pied.  
+- __Navigation__ : Des trucs qui vont sur ou sous l'eau  
+- __Conduite__ : Des trucs sur la terre  
+- __Pilotage__ : Des trucs dans les airs (pas dans _B&B_)  
+- __Equitation__ : Animal monté.  
+
+Tirent une carte d'action / succès et relance. On garde 1 / perso. La carte désigne l'init et la faculté à sortir des pièges de la poursuite.  
+Si Echec sur jet de trait, reste dans la course, mais pas d'action ce tour ci.  
+Jet de manoeuvre ne compte pas comme une action.  
+
+- **Avantage** : un perso avec une plus grosse carte est dit avoir l'avantage (en gros il est en position de l'attaquer).  
+- **Vitesse** : Si vitesse du perso (ou du véhicule / monture) > aux adversaires, +2 à son jet de poursuite. Si vitesse 2 fois plus grand, +4 à son jet.  
+- **Atouts** : Vif, Tête froide et Sang-froid ne s'appliquent pas pdt les poursuites.  
+- **Environnement** : Si terrain difficile -2 à jet de poursuite.  
+- **Passagers** : Peuvent aider le pilote ou le conducteur (si ça a un sens). => jet de Trait coopératif il ne tirent pas de cartes.  
+
+#### Attaques
+Les attaques ont lieu au moment de la Carte d’action du pilote d’un véhicule, mais étant donné que les distances sont abstraites, la valeur de la Carte d’action définit d’éventuels malus à appliquer aux attaques à distance, et s’il est possible d’attaquer au contact (il y a des poursuites où c’est simplement impossible).  
+Un personnage doit avoir l’avantage (une Carte d’action >=) sur sa cible pour pouvoir l’attaquer.
+- **Groupes** : Les Extras agissent en tant que groupes distincts, lors de leur carte. Divisez le nombre d’attaques du groupe de façon égale entre l’opposition, puis ignorez les attaques contre des adversaires ayant l’avantage.   
+- **Forcer l’avantage** : Un conducteur ayant l’**Avantage** peut tenter de distraire ou de percuter un autre véhicule. L’aspect est purement descriptif, mais est résolu par un jet de Trait opposé, auquel on applique le malus de distance. Les jets coopératifs sont possible.  
+Avec un succès, cible subit -2 à son prochain jet de manoeuvre. Relance, la cible est affectée comme si elle avait heurté un obstacle (voir les complications).  
+- **Personnage Secoué** : Si conducteur ou pilote Secoué, il doit faire un jet de perte de contrôle (p. 178). Si le véhicule subit des dommages, considérez qu’il va à la moitié de sa Vitesse maximale (p. 98). Les personnages Secoués au début d’un round font leur jet de Trait avec un malus de -2. Ils tentent de se débarrasser de cette condition à leur Carte d’action comme d’habitude.  
+
+#### Complications
+Si Carte d’action est un trèfle => complication.  
+
+Carte       | Portée                                        | Complication
+------------|-----------------------------------------------|-------------------------------------------------------------------------------------
+2           | Hors de portée. Aucune attaque n’est possible | Désastre : le conducteur jet de Trait à -4. Echec : la poursuite est finie pour lui.
+3-10        | Portée longue (-4)                            | Obstacle majeur : objet dans la trajectoire. jet de Trait à -2 pour l’éviter, ou subir les dégâts 1/2 vitesse max, ou un niveau de fatigue de Bleus et bosses (p. 153) s’il est à pied.
+Valet, Dame | Portée moyenne (-2)                           | Obstacle mineur : objet dans la trajectoire. jet de Trait pour l’éviter, ou subir les dégâts 1/2 vitesse max, ou un niveau de fatigue de Bleus et bosses (p. 153) s’il est à pied.
+Roi, Joker  | Portée courte et attaques CàC possibles       | Distraction : quelque chose bloque la vision ou la ligne de mire du personnage. Pas d'attaque ce round.
+
+# Scènes dramatiques
+Une scène dramatique classique dure cinq actions, et nécessite autant de succès. Les actions peuvent représenter des rounds de combat, ou simplement des tentatives en fonction de la situation.
+
+## Procédure
+Lors de chaque action, le héros tire une Carte d’action (même hors combat), et agit au moment de cette carte. Si total de cinq succès avec le Trait sélectionné avant que le temps imparti soit écoulé, il a atteint son but.  
+Si plus de temps sans les cinq succès, c'est un échec. Le meneur de jeu peut décider qu’il est possible de retenter l’action, quelque chose de très mauvais a dû se passer suite à l’échec. Un nouvel essai devrait nécessiter de repartir de zéro.
+- **Difficulté** : la plupart des Scènes dramatiques devraient imposer un malus de -2 aux jets de Trait utilisés, représentant la difficulté de la tâche. Il s’agit de Scènes dramatiques, et par définition, il est nécessaire qu’elles soient difficiles.  
+- **Jets coopératifs** : d’autres personnages peuvent assister le personnage principal avec des jets coopératifs habituels (voir p. 105).
+
+## Complications
+Si Carte d’action est un trèfle, quelque chose se passe mal. Le jet de cette action subit un malus de -2 (en plus des autres modificateurs). En cas d’échec, le pire résultat pour l’action survient : la cible s’échappe, la bombe explose, l’ordinateur implose, etc.
+
+# Terreur
+Certaines créatures, tout comme des scènes horribles, peuvent ébranler les personnages et le forcer à faire un test de Terreur (jet d’`Âme`).   
+- **Succès** : le personnage parvient à maîtriser sa peur.  
+- **Echec** : les effets dépendent de la nature horrible ou terrifiante de la cause du jet.  
+- **Peur / nausée** : Le personnage est Secoué et doit réussir un jet de `Vigueur`. En cas d’échec, il subit un niveau de fatigue. Sur un 1 sur le dé d’`Âme` (peu importe le dé Joker) il doit en outre faire un jet sur la Table de Terreur.  
+- **Terreur** : Les Extras sont généralement Paniqués. Les Jokers doivent faire un jet sur la Table de Terreur en cas d’échec sur le jet d’`Âme`. Soustrayez au d20 le score de Terreur de la créature (avec une **Terreur de -2**, tirez **1d20+2** par exemple).  
+- **Blasé** : Après avoir rencontré un type particulier de créature, le personnage ne devrait pas avoir à faire un jet d’`Âme` à chaque fois qu’il la rencontre à nouveau durant ce scénario.  
+
+Résultat | Effet
+---------|--------
+1 - 4    | **Décharge d'adrénaline** +2 aux jets de traits et de dégâts lors de sa prochaine action
+5 - 8    | **Secoué** 
+9 - 12   | **Paniqué** Se déplace de son Allure + dé de course + Secoué
+13 - 16  | **Phobie mineure** Gagne le handicap Phobie (Mineur)
+17 - 18  | **Phobie majeure** Gagne le handicap Phobie (Majeur)
+19 - 20  | **Marque de la Terreur** Secouué + altération physique au niveau cosmétique (mèche blanche dans les cheveux, ...), son Charisme est réduit de 1
+21+      | **Attaque cardique** Etat critique doit réussir un jet de `Vigueur` à -2. Succès, il est secoué et ne peut pas réucupérer avant 1d4 rounds. Echec, il meurt en 2d6 rounds. __Soins__ à -4 pour mlui sauver la vie, mais reste dans un état critique
+ 
+
+# Dangers
+## Fatigue
+Un personnage qui est victime de fatigue passe par plusieurs niveaux, avant de finalement succomber ou même mourir.   
+- **Fatigué** : Tous ses jets de Traits -1. S’il subit un nouveau niveau de fatigue, il devient Épuisé.  
+- **Épuisé** : Tous ses jets de Traits -2. S’il subit un niveau de fatigue, il passe en État critique, à moins que la description du danger ne stipule le contraire.  
+- **État critique** : le personnage s’effondre, inconscient. Il ne peut pas effectuer d’action avant d’avoir reçu un traitement approprié à son état.    
+- **Récupération** : Une malnutrition nécessite de la nourriture, le froid nécessite de la chaleur, etc. Vous trouverez dans les descriptions qui suivent les moyens de récupérer s’ils existent.  
+- **Dangers multiples** : un personnage n’a qu’un compteur de fatigue. Si un héros n’a pas mangé depuis des jours et devient Fatigué, puis qu’il s’engage dans un blizzard mordant, il doit faire un jet de fatigue. Il subit le malus de -1 habituel au jet de `Vigueur`, mais s’il échoue à son jet, il devient **Épuisé**. Il n’aura pas deux niveaux Fatigué différents. Un personnage sans nourriture ni eau dans un environnement de chaleur ou de froid extrême est réellement en grand danger !
+
+## Bleus et bosses
+Les personnages qui encaissent des blessures mineures mais gênantes peuvent subir de la fatigue à la place de blessures normales.  
+Le MJ autorisera en général un jet de `Vigueur` pour éviter les dégâts quand il se trouvera dans une telle situation. En cas d’échec, le personnage subit un niveau de fatigue à cause de ses égratignures et ses contusions. La fatigue obtenue de cette manière peut conduire à un état Épuisé, mais pas à un État critique.
+- **Récupération** : un niveau de fatigue disparaît automatiquement après 24 heures.
+
+## Chaleur
+Jet de `Vigueur` avec un malus de -2 s’ils disposent de la moitié de l’eau nécessaire, et de -4 s’ils disposent de moins que ça.  
+ En cas d’échec, le personnage subit un niveau de fatigue. Appliquez également les modificateurs suivants :
+- -1 par tranche de 5 °C au-dessus de 40.
+- +1 si le personnage cesse toute activité physique.
+- +1 s’il parvient à se mettre à l’ombre.
+- **Récupération** : un personnage qui a la possibilité de boire récupère d’un niveau de fatigue par heure.
+- **Effet d’État critique** : subit les effets d’une insolation, qui peut aller jusqu’à provoquer des dégâts cérébraux. Dans ce cas, le personnage fait un nouveau jet de `Vigueur`. Si le jet échoue, l’`Intellect` et la `Force` du personnage sont réduits d’un niveau de dé de manière permanente (avec un minimum de d4).
+
+## Chute
+Les dégâts dus à une chute sont de 1d6+1 par tranche de 4 mètres (en arrondissant au supérieur), jusqu’à un maximum de 10d6+10.
+- **Neige** : un sol particulièrement meuble, comme une profonde couche de neige, agit comme un matelas. Pour 30 centimètres de neige fraîche, les dégâts sont réduits de 1.
+- **Eau** : une chute dans l’eau divise le nombre de dés par deux (arrondi à l’inférieur), et un jet d’`Agilité` réussi permet au personnage de plonger parfaitement et de ne prendre aucun dégât, bien qu’il soit automatiquement Secoué s’il plonge de plus de 15 mètres. Un plongeon de plus de 30 mètres nécessite un jet d’`Agilité` à -2.
+
+## Feu
+Seules les armures ignifugées et intégrales offrent leur bonus de `Résistance` lors de l’encaissement des dégâts.  
+
+Dégâts | Description
+-------|---------------------------
++2     | Arme enflammée
+1d10   | Torche
+2d10   | Feu de camp, lance-flammes
+3d10   | Lave
+
+- **Propagation** : chaque fois qu’un objet inflammable entre au contact d’une source enflammée, lancez 1d6. Sur un 6, il prend feu. Des objets particulièrement inflammables, comme un épouvantail par exemple, s’embrasent sur 4-6. Des cibles extrêmement inflammables, comme une personne recouverte d’essence, sont transformés en torche sur tout résultat sauf un 1. Chaque round suivant un embrasement, lancez à nouveau 1d6 et appliquez les mêmes résultats. Si le feu « prend à nouveau », il gagne en intensité, et ses dégâts passe à la ligne suivante dans le tableau ci-dessus.  
+- **Inhalation de fumée** : les feux dans des lieux clos et étroits produisent des fumées mortelles. Pour chaque round passé dans un tel environnement, le personnage doit faire un jet de `Vigueur`. Il bénéficie d’un bonus de +2 s’il se couvre la bouche et le nez d’un tissu humide. Il peut même ignorer la fumée s’il porte un masque à gaz. En cas d’échec, il subit un niveau de fatigue.  
+
+## Froid
+Pour chaque période de 4 heures passées sous une température de 0 °C, un personnage doit faire un jet de `Vigueur`. Un échec provoque un niveau de fatigue. On rajoute un malus de -1 par 10 °C en dessous de 0, avec un malus maximum de -3.  
+Le jet suppose que le personnage est correctement équipé. Si ce n’est pas le cas, il subit un malus de -2 au jet de `vigueur`. De l’équipement spécialisé moderne octroie un bonus de +2, et +4 pour de l’équipement avancé (combinaison polaire) voire plus en fonction de l’univers.
+- **Récupération** : de la chaleur et un abri permettent de récupérer d’un niveau de fatigue en 30 minutes.
+- **Effet d’État critique** : un jet de `Vigueur` par heure. En cas d’échec, le personnage meurt.
+
+## Irradiation
+Le personnage doit faire un jet de `Vigueur` par heure passée dans une zone faiblement irradiée, et toutes les minutes si le degré de radiation est important.  
+Chaque échec provoque un niveau de fatigue.  
+- **Récupération** : la fatigue provoquée par les radiations disparaît à la vitesse de 1 niveau par période de 24 heures, ou de 12 heures si la victime peut bénéficier d’une procédure de décontamination.
+- **Effet d’État critique** : le personnage est irradié, ce qui correspond à une maladie chronique, longue et lourdement débilitante.
+
+## Maladies
+- **Récupération** : à moins que la description de la maladie ne spécifie le contraire, seul un traitement approprié ou de la magie peuvent apporter une guérison. Si un traitement approprié est disponible, les symptômes de la victime disparaissent en 2d6 jours moins la moitié de son dé de `Vigueur`, avec un minimum d’un jour. Sans traitement, les docteurs ne pourront faire qu’améliorer le confort du malade, sans réel effet sur son rétablissement.  
+Pour ce qui est des soins magiques, voir p. 202.
+- **Effet d’État critique** : en général la mort, à moins que la description ne spécifie le contraire.
+
+## Noyade
+- Un personnage avec au moins d4 en __Natation__ n’a pas besoin de faire de jet dans une eau calme.
+- Dans une eau agitée, un personnage doit faire un jet de __Natation__ toutes les minutes.
+- Dans des rapides, un héros est ballotté par les courants, et doit faire un jet de Natation tous les Rounds.
+- Un héros forcé de rester dans l’eau de longues périodes de temps sans l’aide d’un flotteur oit faire un jet de __Natation__ toutes les heures.  
+- **Modificateurs** : le jet de __Natation__ subit un malus de -2 si le héros tient quelque chose (y compris un autre personnage). Un gilet de survie, par contre, octroie un bonus de +2.   
+- **Récupération** : dès qu’un personnage se retrouve hors de l’eau, il récupère d’un niveau de fatigue toutes les 5 minutes.  
+- **Effet d’État critique** : un personnage dans un État critique meurt en un nombre de Rounds égal 1/2 **Vigueur**. Si le mourant peut être récupéré moins de 5 minutes après sa perte de connaissance, il peut être ramené à la vie grâce à un jet de __Soins__ avec un malus de -4.
+
+## Poison
+Si une victime est Secouée ou blessée par une arme recouverte de poison, ou victime d’une morsure empoisonnée, elle doit faire un jet de `Vigueur`, assorti d’un éventuel malus lié à la toxine, et appliquer les effets de la table ci-dessous.  
+Les goules disposent d’un poison paralysant, et des espions peuvent utiliser un poison faisant sombrer dans l’inconscience.  
+Les personnages qui sont paralysés ou tombent inconscients sont considérés comme étant dans un État critique en attendant que l’effet passe.
+- **Traitement** : si un poison peut être traité, jet de __Soins__ avec le malus du poison. Succès, la vie de la victime est sauvée, et les effets du poison s’estompent rapidement. 
+- **Récupération** : les niveaux de Fatigue résultant d’un empoisonnement disparaissent après 24 heures.
+- **Effet d’État critique** : voir la table ci-dessous
+
+Type         | Échec                           | Succès                           | Relance
+-------------|---------------------------------|----------------------------------|---------
+Mortel       | Mort en 2d6 rounds              | 1 blessure + Épuisé              | Épuisé
+Venin        | Mort en 2d6 minutes             | 1 blessure + Épuisé              | Épuisé
+Paralysie    | Paralysie pendant 2d6 minutes   | Paralysie pendant 2d6 Rounds     | Fatigué
+Inconscience | Inconscience pendant 2d6 heures | Inconscience pendant 2d6 minutes | Fatigué
+
+## Soif
+près un jour sans eau en quantité suffisante, le personnage doit faire un jet de `Vigueur`, avec un malus de -2 s’il dispose de moins de la moitié de l’eau nécessaire. En cas d’échec, le personnage subit un niveau de fatigue. À partir de ce moment, les personnages doivent faire un jet toutes les 6 heures.  
+- __Survie__ : un jet de __Survie__ réussi permet de récupérer suffisamment d’eau (et de nourriture) pour une personne, et pour cinq de plus dans le cas d’une Relance.
+- **Récupération** : deux litres d’eau permettent à un personnage de récupérer d’un niveau de fatigue par heure.
+- **Effet d’État critique** : un personnage dans un État critique à cause de la soif meurt dans les 2d6 heures.
+
+## Sommeil
+La majorité des personnes ont besoin au minimum de 6 heures de sommeil toutes les 24 heures. Ceux qui se passent de repos ne seront pas au mieux. Après un jour sans sommeil, un personnage doit faire un jet de `Vigueur` à -2 toutes les 12 heures (le malus est cumulatif, avec un maximum de -6). En grande quantité, des excitants comme le café ou certains sodas offrent un bonus de +2.
+- **Récupération** : quatre heures de sommeil permettent de récupérer d’un niveau de fatigue. 
+- **Effet d’État critique** : un personnage ne peut mourir du manque de sommeil. Il s’effondrera de fatigue, inconscient pour 4d10 heures
+
+# Interludes
+> p 259  
+
+Des règles pour gérer du rôle play ?
+
+
