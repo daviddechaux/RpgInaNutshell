@@ -227,7 +227,7 @@ Déité en pagne _B&B_         | Joker, H, **Esquive**, **Héros en pagne**, `Vi
 Dégaine Comme l’éclair       | N, `Agilité` d8                                                        | Peut dégainer une arme en action gratuite.
 Derrière toi ! _B&B_         | N, `Agilité` __Perception__ d6, `Âme` d8, `Allure` 6                   | Voir texte p 77.
 Distraction _B&B_            | N, __Combat__ d8, `Intellect` d6, __Sarcasme__ d4                      | Ruse gratuite, mais -2 dégâts jusqu'à son prochain tour
-Don des Mangues              | N, `Intellect` d6                                                      | Commence le jeu en maîtrisant un nombre de langues égal à son dé d’`Intellect`; possibilité de se faire comprendre par n’importe qui avec un jet d’`Intellect` à -2 après une semaine d’immersion.
+Don des Langues              | N, `Intellect` d6                                                      | Commence le jeu en maîtrisant un nombre de langues égal à son dé d’`Intellect`; possibilité de se faire comprendre par n’importe qui avec un jet d’`Intellect` à -2 après une semaine d’immersion.
 Drain de l’Âme _SW_          | A, voir texte                                                          | Spécial. 
 Drain de l’Âme _B&B_         | N, **Arcanes** (Sorcellerie), __Sorcellerie__ __Connaissances (Arcanes)__ d8 | Spécial. _SW_ p 62
 Empoisonneur _B&B_           | N, `Intellect` __Guérison__ __Discrétion__ __Réseaux__ d6              | Voir texte p 73.
