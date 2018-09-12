@@ -798,19 +798,19 @@ Carte       | Portée                                        | Complication
 Valet, Dame | Portée moyenne (-2)                           | Obstacle mineur : objet dans la trajectoire. jet de Trait pour l’éviter, ou subir les dégâts 1/2 vitesse max, ou un niveau de fatigue de Bleus et bosses (p. 153) s’il est à pied.
 Roi, Joker  | Portée courte et attaques CàC possibles       | Distraction : quelque chose bloque la vision ou la ligne de mire du personnage. Pas d'attaque ce round.
 
-# Scènes dramatiques
+## Scènes dramatiques
 Une scène dramatique classique dure cinq actions, et nécessite autant de succès. Les actions peuvent représenter des rounds de combat, ou simplement des tentatives en fonction de la situation.
 
-## Procédure
+### Procédure
 Lors de chaque action, le héros tire une Carte d’action (même hors combat), et agit au moment de cette carte. Si total de cinq succès avec le Trait sélectionné avant que le temps imparti soit écoulé, il a atteint son but.  
 Si plus de temps sans les cinq succès, c'est un échec. Le meneur de jeu peut décider qu’il est possible de retenter l’action, quelque chose de très mauvais a dû se passer suite à l’échec. Un nouvel essai devrait nécessiter de repartir de zéro.
 - **Difficulté** : la plupart des Scènes dramatiques devraient imposer un malus de -2 aux jets de Trait utilisés, représentant la difficulté de la tâche. Il s’agit de Scènes dramatiques, et par définition, il est nécessaire qu’elles soient difficiles.  
 - **Jets coopératifs** : d’autres personnages peuvent assister le personnage principal avec des jets coopératifs habituels (voir p. 105).
 
-## Complications
+### Complications
 Si Carte d’action est un trèfle, quelque chose se passe mal. Le jet de cette action subit un malus de -2 (en plus des autres modificateurs). En cas d’échec, le pire résultat pour l’action survient : la cible s’échappe, la bombe explose, l’ordinateur implose, etc.
 
-# Terreur
+## Terreur
 Certaines créatures, tout comme des scènes horribles, peuvent ébranler les personnages et le forcer à faire un test de Terreur (jet d’`Âme`).   
 - **Succès** : le personnage parvient à maîtriser sa peur.  
 - **Echec** : les effets dépendent de la nature horrible ou terrifiante de la cause du jet.  
@@ -829,8 +829,8 @@ Résultat | Effet
 21+      | **Attaque cardique** Etat critique doit réussir un jet de `Vigueur` à -2. Succès, il est secoué et ne peut pas réucupérer avant 1d4 rounds. Echec, il meurt en 2d6 rounds. __Soins__ à -4 pour mlui sauver la vie, mais reste dans un état critique
  
 
-# Dangers
-## Fatigue
+## Dangers
+### Fatigue
 Un personnage qui est victime de fatigue passe par plusieurs niveaux, avant de finalement succomber ou même mourir.   
 - **Fatigué** : Tous ses jets de Traits -1. S’il subit un nouveau niveau de fatigue, il devient Épuisé.  
 - **Épuisé** : Tous ses jets de Traits -2. S’il subit un niveau de fatigue, il passe en État critique, à moins que la description du danger ne stipule le contraire.  
@@ -838,12 +838,12 @@ Un personnage qui est victime de fatigue passe par plusieurs niveaux, avant de f
 - **Récupération** : Une malnutrition nécessite de la nourriture, le froid nécessite de la chaleur, etc. Vous trouverez dans les descriptions qui suivent les moyens de récupérer s’ils existent.  
 - **Dangers multiples** : un personnage n’a qu’un compteur de fatigue. Si un héros n’a pas mangé depuis des jours et devient Fatigué, puis qu’il s’engage dans un blizzard mordant, il doit faire un jet de fatigue. Il subit le malus de -1 habituel au jet de `Vigueur`, mais s’il échoue à son jet, il devient **Épuisé**. Il n’aura pas deux niveaux Fatigué différents. Un personnage sans nourriture ni eau dans un environnement de chaleur ou de froid extrême est réellement en grand danger !
 
-## Bleus et bosses
+### Bleus et bosses
 Les personnages qui encaissent des blessures mineures mais gênantes peuvent subir de la fatigue à la place de blessures normales.  
 Le MJ autorisera en général un jet de `Vigueur` pour éviter les dégâts quand il se trouvera dans une telle situation. En cas d’échec, le personnage subit un niveau de fatigue à cause de ses égratignures et ses contusions. La fatigue obtenue de cette manière peut conduire à un état Épuisé, mais pas à un État critique.
 - **Récupération** : un niveau de fatigue disparaît automatiquement après 24 heures.
 
-## Chaleur
+### Chaleur
 Jet de `Vigueur` avec un malus de -2 s’ils disposent de la moitié de l’eau nécessaire, et de -4 s’ils disposent de moins que ça.  
  En cas d’échec, le personnage subit un niveau de fatigue. Appliquez également les modificateurs suivants :
 - -1 par tranche de 5 °C au-dessus de 40.
@@ -852,12 +852,12 @@ Jet de `Vigueur` avec un malus de -2 s’ils disposent de la moitié de l’eau 
 - **Récupération** : un personnage qui a la possibilité de boire récupère d’un niveau de fatigue par heure.
 - **Effet d’État critique** : subit les effets d’une insolation, qui peut aller jusqu’à provoquer des dégâts cérébraux. Dans ce cas, le personnage fait un nouveau jet de `Vigueur`. Si le jet échoue, l’`Intellect` et la `Force` du personnage sont réduits d’un niveau de dé de manière permanente (avec un minimum de d4).
 
-## Chute
+### Chute
 Les dégâts dus à une chute sont de 1d6+1 par tranche de 4 mètres (en arrondissant au supérieur), jusqu’à un maximum de 10d6+10.
 - **Neige** : un sol particulièrement meuble, comme une profonde couche de neige, agit comme un matelas. Pour 30 centimètres de neige fraîche, les dégâts sont réduits de 1.
 - **Eau** : une chute dans l’eau divise le nombre de dés par deux (arrondi à l’inférieur), et un jet d’`Agilité` réussi permet au personnage de plonger parfaitement et de ne prendre aucun dégât, bien qu’il soit automatiquement Secoué s’il plonge de plus de 15 mètres. Un plongeon de plus de 30 mètres nécessite un jet d’`Agilité` à -2.
 
-## Feu
+### Feu
 Seules les armures ignifugées et intégrales offrent leur bonus de `Résistance` lors de l’encaissement des dégâts.  
 
 Dégâts | Description
@@ -870,24 +870,24 @@ Dégâts | Description
 - **Propagation** : chaque fois qu’un objet inflammable entre au contact d’une source enflammée, lancez 1d6. Sur un 6, il prend feu. Des objets particulièrement inflammables, comme un épouvantail par exemple, s’embrasent sur 4-6. Des cibles extrêmement inflammables, comme une personne recouverte d’essence, sont transformés en torche sur tout résultat sauf un 1. Chaque round suivant un embrasement, lancez à nouveau 1d6 et appliquez les mêmes résultats. Si le feu « prend à nouveau », il gagne en intensité, et ses dégâts passe à la ligne suivante dans le tableau ci-dessus.  
 - **Inhalation de fumée** : les feux dans des lieux clos et étroits produisent des fumées mortelles. Pour chaque round passé dans un tel environnement, le personnage doit faire un jet de `Vigueur`. Il bénéficie d’un bonus de +2 s’il se couvre la bouche et le nez d’un tissu humide. Il peut même ignorer la fumée s’il porte un masque à gaz. En cas d’échec, il subit un niveau de fatigue.  
 
-## Froid
+### Froid
 Pour chaque période de 4 heures passées sous une température de 0 °C, un personnage doit faire un jet de `Vigueur`. Un échec provoque un niveau de fatigue. On rajoute un malus de -1 par 10 °C en dessous de 0, avec un malus maximum de -3.  
 Le jet suppose que le personnage est correctement équipé. Si ce n’est pas le cas, il subit un malus de -2 au jet de `vigueur`. De l’équipement spécialisé moderne octroie un bonus de +2, et +4 pour de l’équipement avancé (combinaison polaire) voire plus en fonction de l’univers.
 - **Récupération** : de la chaleur et un abri permettent de récupérer d’un niveau de fatigue en 30 minutes.
 - **Effet d’État critique** : un jet de `Vigueur` par heure. En cas d’échec, le personnage meurt.
 
-## Irradiation
+### Irradiation
 Le personnage doit faire un jet de `Vigueur` par heure passée dans une zone faiblement irradiée, et toutes les minutes si le degré de radiation est important.  
 Chaque échec provoque un niveau de fatigue.  
 - **Récupération** : la fatigue provoquée par les radiations disparaît à la vitesse de 1 niveau par période de 24 heures, ou de 12 heures si la victime peut bénéficier d’une procédure de décontamination.
 - **Effet d’État critique** : le personnage est irradié, ce qui correspond à une maladie chronique, longue et lourdement débilitante.
 
-## Maladies
+### Maladies
 - **Récupération** : à moins que la description de la maladie ne spécifie le contraire, seul un traitement approprié ou de la magie peuvent apporter une guérison. Si un traitement approprié est disponible, les symptômes de la victime disparaissent en 2d6 jours moins la moitié de son dé de `Vigueur`, avec un minimum d’un jour. Sans traitement, les docteurs ne pourront faire qu’améliorer le confort du malade, sans réel effet sur son rétablissement.  
 Pour ce qui est des soins magiques, voir p. 202.
 - **Effet d’État critique** : en général la mort, à moins que la description ne spécifie le contraire.
 
-## Noyade
+### Noyade
 - Un personnage avec au moins d4 en __Natation__ n’a pas besoin de faire de jet dans une eau calme.
 - Dans une eau agitée, un personnage doit faire un jet de __Natation__ toutes les minutes.
 - Dans des rapides, un héros est ballotté par les courants, et doit faire un jet de Natation tous les Rounds.
@@ -896,7 +896,7 @@ Pour ce qui est des soins magiques, voir p. 202.
 - **Récupération** : dès qu’un personnage se retrouve hors de l’eau, il récupère d’un niveau de fatigue toutes les 5 minutes.  
 - **Effet d’État critique** : un personnage dans un État critique meurt en un nombre de Rounds égal 1/2 **Vigueur**. Si le mourant peut être récupéré moins de 5 minutes après sa perte de connaissance, il peut être ramené à la vie grâce à un jet de __Soins__ avec un malus de -4.
 
-## Poison
+### Poison
 Si une victime est Secouée ou blessée par une arme recouverte de poison, ou victime d’une morsure empoisonnée, elle doit faire un jet de `Vigueur`, assorti d’un éventuel malus lié à la toxine, et appliquer les effets de la table ci-dessous.  
 Les goules disposent d’un poison paralysant, et des espions peuvent utiliser un poison faisant sombrer dans l’inconscience.  
 Les personnages qui sont paralysés ou tombent inconscients sont considérés comme étant dans un État critique en attendant que l’effet passe.
@@ -911,20 +911,81 @@ Venin        | Mort en 2d6 minutes             | 1 blessure + Épuisé          
 Paralysie    | Paralysie pendant 2d6 minutes   | Paralysie pendant 2d6 Rounds     | Fatigué
 Inconscience | Inconscience pendant 2d6 heures | Inconscience pendant 2d6 minutes | Fatigué
 
-## Soif
+### Soif
 près un jour sans eau en quantité suffisante, le personnage doit faire un jet de `Vigueur`, avec un malus de -2 s’il dispose de moins de la moitié de l’eau nécessaire. En cas d’échec, le personnage subit un niveau de fatigue. À partir de ce moment, les personnages doivent faire un jet toutes les 6 heures.  
 - __Survie__ : un jet de __Survie__ réussi permet de récupérer suffisamment d’eau (et de nourriture) pour une personne, et pour cinq de plus dans le cas d’une Relance.
 - **Récupération** : deux litres d’eau permettent à un personnage de récupérer d’un niveau de fatigue par heure.
 - **Effet d’État critique** : un personnage dans un État critique à cause de la soif meurt dans les 2d6 heures.
 
-## Sommeil
+### Sommeil
 La majorité des personnes ont besoin au minimum de 6 heures de sommeil toutes les 24 heures. Ceux qui se passent de repos ne seront pas au mieux. Après un jour sans sommeil, un personnage doit faire un jet de `Vigueur` à -2 toutes les 12 heures (le malus est cumulatif, avec un maximum de -6). En grande quantité, des excitants comme le café ou certains sodas offrent un bonus de +2.
 - **Récupération** : quatre heures de sommeil permettent de récupérer d’un niveau de fatigue. 
 - **Effet d’État critique** : un personnage ne peut mourir du manque de sommeil. Il s’effondrera de fatigue, inconscient pour 4d10 heures
 
-# Interludes
+## Interludes
 > p 259  
 
 Des règles pour gérer du rôle play ?
+
+## Combats de masse
+
+> Todo
+
+## Règles d'univers
+
+> Todo
+
+## Conflits sociaux
+
+> Todo
+
+## Voyages
+
+> Todo
+
+## Règles de véhicules 
+
+> Todo
+
+# Pouvoirs
+
+> p 181
+
+#### Points de pouvoir
+Dès que vous sélectionnez un Atout d’Arcanes, vous recevez le nombre de Points de pouvoir indiqué. Utiliser un pouvoir nécessite de dépenser un certain nombre de ces points.  
+Un héros regagne 1 Point de Pouvoir par heure.
+
+#### Pouvoirs de départ
+Les Arcanistes débutent leur carrière avec un nombre de pouvoirs défini par leur Arcane. 
+
+#### Apprendre de nouveaux pouvoirs
+Un Arcaniste peut apprendre un nouveau pouvoir en choisissant l’Atout Nouveau pouvoir.
+Dès qu’il choisit cet Atout lors d’une Progression, il peut immédiatement utiliser le nouveau pouvoir sélectionné.
+
+## Utiliser ses pouvoirs
+Utiliser un pouvoir coûte une action : il suffit de déclarer le pouvoir utilisé, de dépenser le nombre de Points de pouvoir nécessaires, et de faire un jet de la compétence d’Arcanes associée.  
+- **Echec** les PP sont perdus mais sans aucun effet.
+
+#### Maintenir un pouvoir
+Certains pouvoirs peuvent être maintenus si leur durée le spécifie. C’est une action gratuite.  
+Le nombre entre parenthèse qui suit la Durée représente le nombre de PP nécessaires pour maintenir le pouvoir pour 1 round supplémentaire.
+Aucun nouveau jet n’est nécessaire.  
+Pour chaque pouvoir maintenu, l’Arcaniste subit un malus de -1 à tous les jets d’Arcane (mais pas aux autres jets de Trait). 
+
+#### Perdre sa concentration
+Un personnage qui maintient un pouvoir peut perdre sa concentration s’il subit des dégâts. Pour garder sa concentration sur tous ses pouvoirs, il doit réussir un jet d’Arcane opposé aux dégâts reçus.  
+- **Succès** maintenient de tous les sorts
+- **Echec** la magie s’achève après que l’attaque causant la disruption soit résolue entièrement.  
+Un personnage qui se retrouve Secoué suite à autre chose qu’une attaque doit réussir un simple jet d’Intellect pour maintenir ses pouvoirs.
+
+## Arcanes (B&B)
+### Maîtrise du Lotus
+- __Compétence__ : Maîtrise du Lotus (`Intellect`)
+- Points de pouvoir : 10
+- Pouvoirs : 3
+- Pouvoirs accessibles : Adaptation environnementale, Augmentation / Diminution de trait, Aveuglement, Barrière, Choc, Confusion, Détection / Dissimulation d’arcanes, Dissipation, Don du guerrier, Enchevêtrement, Explosion, Frappe, Guérison, Invisibilité, Lumière/Ténèbres, Marionnette, Poison (N), Rafale, Ralentissement, Secours, Sommeil, Terreur, Zombi.
+
+
+Pour créer une préparation, un Maître du Lotus a besoin de son Sac de Lotus, une sorte de laboratoire miniature renfermant ses matières premières et ustensiles de base. La préparation requiert une heure par Rang du pouvoir qu’il souhaite instiller (un pouvoir Aguerri exige donc deux heures de travail).  
 
 
